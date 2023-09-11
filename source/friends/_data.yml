@@ -1,0 +1,27 @@
+- site: 優萌初華
+  owner: 霜月琉璃
+  url: https://shoka.lostyu.me
+  desc: 琉璃的医学 & 编程笔记
+  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+  color: "#e9546b"
+
+- site: txuw
+  owner: txuw
+  url: https://www.txuw.top
+  desc: 一位喜欢搞事情的博主
+  image: https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe0b32bf8-1d80-4403-b1df-82b425bb91d6%2FBBB288E9-5451-4560-9936-409B20A4B116.jpeg?table=collection&id=0f903c14-d3bd-4851-a743-73f0c703a23b
+  color: "#D98719"
+
+- site: 木杉の小窝
+  owner: 木杉
+  url: https://mushan-bit.github.io
+  desc: 木杉的编程笔记 + 情感日常记录
+  image: https://mushan-bit.github.io/images/avatar.jpg
+  color: "#D98719"
+
+- site: Kobopi'Blog
+  owner: Kobopi
+  url: https://www.kobopi.cc
+  desc: 知行合一，尚乃可全
+  image: https://www.kobopi.cc/assets/head.jpg
+  color: "##a7e2eb"

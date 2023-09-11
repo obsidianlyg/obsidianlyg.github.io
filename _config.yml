@@ -1,0 +1,249 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: L小悠的日常L
+subtitle: "是小悠呀"
+description: "一个条懒得翻身的咸鱼"
+keywords:
+author: obsidianlyg
+language: zh-CN
+timezone: "Asia/Shanghai"
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+#url: https://obsidianlyg.gitee.io
+#root: /
+
+# url: https://obsisianlyg.top/
+# root: /
+
+url: https://obsidianlyg.github.io
+root: /
+
+# permalink: :year/:month/:day/:title/
+permalink: :title/
+# permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ""
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+# highlight:
+#   enable: true
+#   line_number: true
+#   auto_detect: false
+#   tab_replace: ''
+#   wrap: true
+#   hljs: false
+# prismjs:
+#   enable: true
+#   preprocess: true
+#   line_number: true
+#   tab_replace: ''
+highlight:
+  enable: false # edit for Theme.shoka
+  # line_number: true
+  # auto_detect: true
+  # tab_replace: ''
+prismjs:
+  enable: false # edit for Theme.shoka
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ""
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+# default_category: uncategorized
+category_map:
+  计算机科学: computer-science
+  主题作者的教程配置: note
+  MongoDB: mongo
+  Theme Shoka Documentation: theme-shoka-doc
+  使用测试: usetest
+  图床的测试: test-img
+  markdown测试: mktest
+# tag_map:
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: "mtime"
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: shoka
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+# theme: landscape
+theme: shoka
+
+# Reward (Donate)
+reward:
+  # If true, reward will be displayed in every article by default.
+  enable: true
+  account:
+    wechatpay: /wechatpay.png
+    # alipay: /alipay.png
+    # paypal: /paypal.png
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+# http://obsisianlyg.top:23000/obsidian/blog.git
+deploy:
+  type: git # type为git
+  repo: https://github.com/obsidianlyg/obsidianlyg.github.io # 仓库的URL
+
+# edit for Theme.shoka
+autoprefixer:
+  exclude:
+    - "*.min.css"
+
+markdown:
+  render: # 渲染器设置
+    html: false # 过滤 HTML 标签
+    xhtmlOut: true # 使用 '/' 来闭合单标签 （比如 <br />）。
+    breaks: true # 转换段落里的 '\n' 到 <br>。
+    linkify: true # 将类似 URL 的文本自动转换为链接。
+    typographer:
+    quotes: "“”‘’"
+  plugins: # markdown-it插件设置
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options: # 文章目录以及锚点应用的class名称，shoka主题必须设置成这样
+          tocClassName: "toc"
+          anchorClassName: "anchor"
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+          headerless: true
+    - plugin:
+        name: ./markdown-it-furigana
+        enable: true
+        options:
+          fallbackParens: "()"
+    - plugin:
+        name: ./markdown-it-spoiler
+        enable: true
+        options:
+          title: "你知道得太多了"
+
+minify:
+  html:
+    enable: true
+    stamp: false
+    exclude:
+      - "**/json.ejs"
+      - "**/atom.ejs"
+      - "**/rss.ejs"
+  css:
+    enable: true
+    stamp: false
+    exclude:
+      - "**/*.min.css"
+  js:
+    enable: true
+    stamp: false
+    mangle:
+      toplevel: true
+    output:
+    compress:
+    exclude:
+      - "**/*.min.js"
+
+algolia:
+  appId: GU3C7I5JLE
+  apiKey: 594123984ffdf6366638b6ac80ae4c59
+  adminApiKey: f9a47d17a5e4b51cd797fbf396e94e97
+  chunkSize: 5000
+  indexName: title
+  fields:
+    - title #必须配置
+    - path #必须配置
+    - categories #推荐配置
+    - content:strip:truncate,0,4000
+    - gallery
+    - photos
+    - tags
+
+feed:
+  limit: 20
+  order_by: "-date"
+  tag_dir: false
+  category_dir: false
+  rss:
+    enable: true
+    template: "themes/shoka/layout/_alternate/rss.ejs"
+    output: "rss.xml"
+  atom:
+    enable: true
+    template: "themes/shoka/layout/_alternate/atom.ejs"
+    output: "atom.xml"
+  jsonFeed:
+    enable: true
+    template: "themes/shoka/layout/_alternate/json.ejs"
+    output: "feed.json"
+
+## 哔哔功能配置
+## 关注公众号 "黑石哔哔"，发送: //bindCurrentUser:你的APPID,你的MASTERKEY,你的RESTAPI
+## 可用leancloud国际版，国际版api为 https://appid前八位.api.lncldglobal.com
+bb:
+  title: 哔哔 #页面title
+  permalink: https://obsidianlyg.gitee.io/bb/
+  appId: QAgAM38qkcsPz8ziHqhJTfaY-gzGzoHsz
+  appKey: a9Er9gvAvkF6AEJyfJyycODn
+  serverURLs: https://qagam38q.lc-cn-n1-shared.com #你的api地址
+  #  serverURLs: ['https://cdn.jsdelivr.net/gh/line/Bilibilis@latest','https://cdn.jsdelivr.net/gh/line/tieba@latest','https://cdn.jsdelivr.net/gh/line/twemoji@latest','https://cdn.jsdelivr.net/gh/line/weibo@latest']
+  #  el: true
+  limit: 10 #显示条数
+  path: bb #路径名称 例如：https://你的域名/bb
+  content: "👉🏼此说说通过📱手机微信发出，主要记录黑石碎片化思考和动态。📑(若未正确显示，可以手动刷新)" #显示在哔哔上方,如不需要注释即可
+
