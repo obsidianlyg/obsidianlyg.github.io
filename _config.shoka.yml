@@ -147,7 +147,7 @@ footer:
   count: true
   powered: true
   # 是否开启备案-修改内容位置在/shoka/languages/zh-CN.yml
-  filing: true
+  filing: false
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time

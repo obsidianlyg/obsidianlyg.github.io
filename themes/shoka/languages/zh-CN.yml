@@ -61,7 +61,8 @@ footer:
   #用于备案
   record: 鲁ICP备2022013348号-1
   recordx: 鲁公网安备 37028102001234号
-  beianimg: http://www.beian.gov.cn/portal/download?token=8aae2121-16f8-430f-8177-bb47291eae32
+  # beianimg: http://www.beian.gov.cn/portal/download?token=8aae2121-16f8-430f-8177-bb47291eae32
+  beianimg: /images/wangan.png
   total_views: 总访问量
   total_visitors: 总访客量
 
