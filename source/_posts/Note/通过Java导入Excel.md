@@ -1,7 +1,7 @@
 ---
 title: 利用Java导入Excel到数据库
 date: 2023-8-2 17:05:39
-tags: Python
+tags: Java
 ---
 
 
@@ -29,20 +29,12 @@ private String sex;
 ## 代码部分
 在Service中的代码如下
 ```java
-    @Override
-    public boolean importExcelSyncLineLoss(MultipartFile file, String dataDate) {
+    public boolean importExcel(MultipartFile file, Boolean keep) {
         try{
             //获取文件流
             InputStream inputStream = file.getInputStream();
-            List<List<String>> heads = new ArrayList<>();
-            // 内层list 有两个值，表示有两行，外层list有两个对象，表示有两列。同一行如果列名相同，将进行合并
-            heads.add(Arrays.asList("类型", "类型1"));
-            heads.add(Arrays.asList("类型","类型2"));
-            heads.add(Arrays.asList("类型","类型3"));
-            //easyexcel导入文件
-            EasyExcel.read(inputStream, TPowerSyncLineLoss.class,new SyncLineLossImportListener(this, dataDate))
-                    .head(heads)
-                    .headRowNumber(2)
+            //easyExcel导入文件
+            EasyExcel.read(inputStream, EmployeeModel.class, new EmpImportListener(this, pubCodeRepo, orgRepo, keep))
                     .sheet()
                     .doRead();
             return true;
@@ -115,3 +107,59 @@ public class SyncLineLossImportListener extends AnalysisEventListener<TPowerSync
 }
 
 ```
+设置二级表头
+在需要合并单元格的属性上设置 `@ExcelMerge` 注解，二级表头通过设置 `@ExcelProperty` 注解中 **value** 值为数组形式来实现该效果：
+```java
+/**
+ * @author william@StarImmortal
+ */
+@Data
+public class OrderBO {
+    @ExcelProperty(value = "订单主键")
+    @ColumnWidth(16)
+    @ExcelMerge(merge = true, isPrimaryKey = true)
+    private String id;
+
+    @ExcelProperty(value = "订单编号")
+    @ColumnWidth(20)
+    @ExcelMerge(merge = true)
+    private String orderId;
+
+    @ExcelProperty(value = "收货地址")
+    @ExcelMerge(merge = true)
+    @ColumnWidth(20)
+    private String address;
+
+    @ExcelProperty(value = "创建时间")
+    @ColumnWidth(20)
+    @DateTimeFormat("yyyy-MM-dd HH:mm:ss")
+    @ExcelMerge(merge = true)
+    private Date createTime;
+
+    @ExcelProperty(value = {"商品信息", "商品编号"})
+    @ColumnWidth(20)
+    private String productId;
+
+    @ExcelProperty(value = {"商品信息", "商品名称"})
+    @ColumnWidth(20)
+    private String name;
+
+    @ExcelProperty(value = {"商品信息", "商品标题"})
+    @ColumnWidth(30)
+    private String subtitle;
+
+    @ExcelProperty(value = {"商品信息", "品牌名称"})
+    @ColumnWidth(20)
+    private String brandName;
+
+    @ExcelProperty(value = {"商品信息", "商品价格"})
+    @ColumnWidth(20)
+    private BigDecimal price;
+
+    @ExcelProperty(value = {"商品信息", "商品数量"})
+    @ColumnWidth(20)
+    private Integer count;
+}
+
+```
+[导入导出参考连接](https://blog.csdn.net/qq991658923/article/details/128153012)
