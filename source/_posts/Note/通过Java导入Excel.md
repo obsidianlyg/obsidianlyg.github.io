@@ -21,6 +21,9 @@ tags: Java
 # 默认下标从0开始，index可以不填，value值必填
 @ExcelProperty(value = "excel名称", index = 0)
 private String name;
+# 可以识别多行字段
+@ExcelProperty(value = {"商品信息", "商品价格"})
+private String name;
 # 忽略该属性
 @ExcelIgnore  
 private String sex;
