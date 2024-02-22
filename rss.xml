@@ -10,8 +10,149 @@
         </author>
         <description>最好的生活是：时光，浓淡相宜，人心，远近相安</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 02 Feb 2024 00:00:00 +0800</pubDate>
-        <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0800</lastBuildDate>
+        <pubDate>Fri, 23 Feb 2024 11:20:39 +0800</pubDate>
+        <lastBuildDate>Fri, 23 Feb 2024 11:20:39 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://obsidianlyg.github.io/Note/Obsidian%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%EF%BC%88%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F%EF%BC%89/</guid>
+            <title>Obsidian笔记软件(插件收藏)</title>
+            <link>https://obsidianlyg.github.io/Note/Obsidian%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%EF%BC%88%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F%EF%BC%89/</link>
+            <category term="obsidian" scheme="https://obsidianlyg.github.io/tags/obsidian/" />
+            <pubDate>Fri, 23 Feb 2024 11:20:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;快捷键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快捷键&#34;&gt;#&lt;/a&gt; 快捷键：&lt;/h3&gt;
+&lt;p&gt;生成 properties  &lt;code&gt;ctrl + ;&lt;/code&gt;  或者用 三个 &lt;code&gt;-&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;外观主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#外观主题&#34;&gt;#&lt;/a&gt; 外观主题：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AnuPpuccin（需要配合 StyleSetting 第三方插件使用 - 用于显示是否使用某种样式）&lt;/li&gt;
+&lt;li&gt;Everforest （简洁但是很好看）&lt;/li&gt;
+&lt;li&gt;Blue Topaz (配合 StyleSetting, 中文设置)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;插件推荐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件推荐&#34;&gt;#&lt;/a&gt; 插件推荐：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;日历插件：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2xpYW1jYWluL29ic2lkaWFuLWNhbGVuZGFyLXBsdWdpbg==&#34;&gt;obsidian-calendar-plugin&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;markdown 表格插件：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3Rncm9zaW5nZXIvYWR2YW5jZWQtdGFibGVzLW9ic2lkaWFu&#34;&gt;advanced-tables-obsidian&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;卡片式显示多个 md 笔记：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2RlYXRoYXUvc2xpZGluZy1wYW5lcy1vYnNpZGlhbg==&#34;&gt;sliding-panes-obsidian&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;每日计划（有个时间轴，X 点到 X 点干什么）：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2x5bmNoamFtZXMvb2JzaWRpYW4tZGF5LXBsYW5uZXI=&#34;&gt;obsidian-day-planner&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;云同步：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3JlbW90ZWx5LXNhdmUvcmVtb3RlbHktc2F2ZQ==&#34;&gt;remotely-save&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;生成好看的图表：Charts&lt;/li&gt;
+&lt;li&gt;图表显示 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2Nhcm9uY2hlbi9vYnNpZGlhbi1jaGFydHN2aWV3LXBsdWdpbg==&#34;&gt;obsidian-chartsview-plugin&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;生成时间轴：timeliness&lt;/li&gt;
+&lt;li&gt;本地文件共享到 notion 的插件 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0Vhc3lDaHJpcy9vYnNpZGlhbi10by1ub3Rpb24=&#34;&gt;obsidian-to-notion&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;关于图片的管理 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0RhcmFrYWgvb2JzaWRpYW4tZ2FsbGVyeQ==&#34;&gt;obsidian-gallery&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;跟微信读书联动的插件 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3poYW9ob25neHVhbi9vYnNpZGlhbi13ZXJlYWQtcGx1Z2lu&#34;&gt;obsidian-weread-plugin&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;通过鼠标缩放图片大小 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL25pY29qZXNrZS9tb3VzZXdoZWVsLWltYWdlLXpvb20=&#34;&gt;mousewheel-image-zoom&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;对于侧边栏大纲样式、搜索、换位的定义 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2d1b3BlbmdodWkvb2JzaWRpYW4tcXVpZXQtb3V0bGluZQ==&#34;&gt;obsidian-quiet-outline&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;任务相关的面板设计 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3Jvb3ZvL29ic2lkaWFuLWNhcmQtYm9hcmQ=&#34;&gt;obsidian-card-board&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;代码高亮 : &lt;strong&gt;Editor Syntax Highlight&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;插入 icon（&lt;strong&gt;Icon Shortcodes&lt;/strong&gt;）：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FpZGVubHgvb2JzaWRpYW4taWNvbi1zaG9ydGNvZGVz&#34;&gt;obsidian-card-board&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;生成思维导图 mindmap （vscode 也有这个插件）&lt;/li&gt;
+&lt;li&gt;快速书写 LaTeX（&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FydGlzdGljYXQxL29ic2lkaWFuLWxhdGV4LXN1aXRl&#34;&gt;Latex Suite&lt;/span&gt;&lt;/strong&gt;）
+&lt;ul&gt;
+&lt;li&gt;其中 xx 为 \times (文档没说)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;设置选项的搜索 &lt;a href=&#34;https://github.com/javalent/settings-search&#34;&gt;&lt;strong&gt;settings-search&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;带有奇特主题的 UML 语法转图像 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2pvZXRoZWkvb2JzaWRpYW4tcGxhbnR1bWw=&#34;&gt;obsidian-plantuml&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;好像能直接显示视频链接 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0ZIYWNoZXovb2JzaWRpYW4tY29udmVydC11cmwtdG8taWZyYW1l&#34;&gt;obsidian-convert-url-to-iframe&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;多模块样式 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2NrUm9iaW5zb24vbXVsdGktY29sdW1uLW1hcmtkb3du&#34;&gt;multi-column-markdown&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;免费的数据同步插件 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3ZydG1yei9vYnNpZGlhbi1saXZlc3luYw==&#34;&gt;obsidian-livesync&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;md 格式化 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2NyaXN0aWFudmFzcXVlei9vYnNpZGlhbi1wcmV0dGlmeQ==&#34;&gt;obsidian-prettify&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;文件夹卡片样式 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3hwZ28vb2JzaWRpYW4tZm9sZGVyLW5vdGUtcGx1Z2lu&#34;&gt;obsidian-folder-note-plugin&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;顶部编辑栏（标题大小颜色等选项） &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1BLTS1lci9vYnNpZGlhbi1lZGl0aW5nLXRvb2xiYXI=&#34;&gt;obsidian-editing-toolbar&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;类似 notion 中顶部图片以及标题 icon 显示 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL25vYXRwYWQvb2JzaWRpYW4tYmFubmVycw==&#34;&gt;obsidian-banners&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;根据已有文件智能提示关联  &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RhZGFzaGktYWlrYXdhL29ic2lkaWFuLXZhcmlvdXMtY29tcGxlbWVudHMtcGx1Z2lu&#34;&gt;obsidian-various-complements-plugin&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;类似于 notion 的数据库模式 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RyZXktd2FsbGlzL29ic2lkaWFuLWRhc2hib2FyZHM=&#34;&gt;obsidian-dashboards&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;丰富右键菜单 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2NoZXRhY2hpZXppa2V1em9yL2NNZW51LVBsdWdpbg==&#34;&gt;cMenu-Plugin&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;在 obsidian 内看 pdf 做笔记：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2VsaWFzLXN1bmRxdmlzdC9vYnNpZGlhbi1hbm5vdGF0b3I=&#34;&gt;obsidian-annotator&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;联动 picgo 剪切板上传图床：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3Jlbm11MTIzL29ic2lkaWFuLWltYWdlLWF1dG8tdXBsb2FkLXBsdWdpbg==&#34;&gt;obsidian-image-auto-upload-plugin&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Dataview（生成数据库图表）：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2JsYWNrc21pdGhndS9vYnNpZGlhbi1kYXRhdmlldw==&#34;&gt;obsidian-dataview&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Obsidian Icon Folder（文件夹显示 icon）：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0Zsb3JpYW5Xb2Vsa2kvb2JzaWRpYW4taWNvbi1mb2xkZXI=&#34;&gt;obsidian-icon-folder&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MySnippets （显示在右下角，可添加别人 css 主题之后会显示选项按钮用于选择样式显示）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;快速创建文件：QuickAdd
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zc3BhaS5jb20vcG9zdC82OTM3NQ==&#34;&gt;参考文档&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;template 的选项的用法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;yaml 写法&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;---&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;title: &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;--swig￼0--&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token environment constant&#34;&gt;UID&lt;/span&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;--swig￼1--&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;aliases: &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;tags: &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;项目状态: 提案&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;主题: &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;--swig￼2--&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date: &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;--swig￼3--&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;---&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;#123;&amp;#123;NAME&amp;#125;&amp;#125;&lt;/code&gt;  是文件名的写法&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;#123;&amp;#123;VALUE:主题是什么？&amp;#125;&amp;#125;&lt;/code&gt;  这种写法会作为一个提示输入弹窗，让我录入。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;#123;&amp;#123;DATE:YYYY-MM-DD HH:mm:ss&amp;#125;&amp;#125;&lt;/code&gt;  在创建文件时会变成当前的年月日时分秒&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;特殊格式语法：在模板中这样写，可以在新建时出现选择框。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;--swig￼7--&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;capture 的选项的用法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;指定文件，在内部直接插入模板的用法，语法同上 ，没有  &lt;code&gt;---&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;制作模板时生成的语法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;时间相关&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;#123;&amp;#123;date&amp;#125;&amp;#125;&lt;/code&gt;  默认 &lt;code&gt;YYYY-MM-DD&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;可自定义为 &lt;code&gt;&amp;#123;&amp;#123;date:YYYY-MM-DD hh:mm:ss&amp;#125;&amp;#125;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;#123;&amp;#123;time&amp;#125;&amp;#125;&lt;/code&gt;  默认 &lt;code&gt;hh:mm&lt;/code&gt;  可与 date 连用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;双链用法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;[[页面名称]]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;或者直接按住相关标签拖动到编辑界面即可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;&amp;#123;&amp;#123;title&amp;#125;&amp;#125;&lt;/code&gt;  会自动获取文件名生成标题&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;tag:&lt;/code&gt;  会生成在标签列表中&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;特殊是语法：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;tip&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;后面的单词不同会出现不同的标识和背景颜色（默认有&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;种样式）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;同一行代表会显示相同的标识符和背景&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;note&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;abstract&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; summary&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; tldr&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;info&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; todo&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;tip&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hint&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; important&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;success&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; check&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; done&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;question&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; help&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; faq&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;warning&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; caution&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; attention&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;failure&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; fail&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; missing&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;danger&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; error&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;bug&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;example&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;quote&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; cite&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关于附件存储问题&lt;/p&gt;
+&lt;p&gt;由于将复制的图片会默认存储到根目录下导致文件冗杂&lt;/p&gt;
+&lt;p&gt;可到设置中 &lt;code&gt;文件与连接&lt;/code&gt; 内下方的 &lt;code&gt;附件默认存放路径&lt;/code&gt;  选择 &lt;code&gt;当前文件所在文件夹下指定的子文件夹中&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;选中后在下方填写对应文件夹名称即可&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://obsidianlyg.github.io/Note/%E5%85%B3%E4%BA%8Eobsidian%E7%9A%84%E5%85%8D%E8%B4%B9%E5%90%8C%E6%AD%A5%E6%96%B9%E6%B3%95/</guid>
+            <title>关于obsidian的免费同步方法</title>
+            <link>https://obsidianlyg.github.io/Note/%E5%85%B3%E4%BA%8Eobsidian%E7%9A%84%E5%85%8D%E8%B4%B9%E5%90%8C%E6%AD%A5%E6%96%B9%E6%B3%95/</link>
+            <category term="obsidian" scheme="https://obsidianlyg.github.io/tags/obsidian/" />
+            <pubDate>Thu, 22 Feb 2024 11:05:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前提条件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前提条件&#34;&gt;#&lt;/a&gt; 前提条件&lt;/h2&gt;
+&lt;p&gt;下载插件 &lt;a href=&#34;https://github.com/remotely-save/remotely-save&#34;&gt; &lt;code&gt;Remotely Save&lt;/code&gt; &lt;/a&gt;&lt;br /&gt;
+ 注册&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hY2NvdW50LnRlcmFjbG91ZC5qcC9SZWdpc3RGb3JtLnBocC9pbmRleC8=&#34;&gt; infini-cloud 云端存储网站&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置云端存储&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置云端存储&#34;&gt;#&lt;/a&gt; 配置云端存储&lt;/h2&gt;
+&lt;p&gt;注册 infini-cloud 后，进入 MyPage 页面在 &lt;code&gt;Apps Connection&lt;/code&gt;  下勾选 Turn on Apps Connection&lt;br /&gt;
+&lt;a href=&#34;https://imgse.com/i/pFNkizq&#34;&gt;&lt;img data-src=&#34;https://s11.ax1x.com/2024/02/22/pFNkizq.png&#34; alt=&#34;pFNkizq.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置插件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置插件&#34;&gt;#&lt;/a&gt; 配置插件&lt;/h2&gt;
+&lt;p&gt;选择远程服务：Webdav&lt;br /&gt;
+ 服务器地址： &lt;code&gt;Apps Connection&lt;/code&gt;  中的 URL&lt;br /&gt;
+ 用户名和密码对应 &lt;code&gt;Apps Connection&lt;/code&gt;  的 ID 和 Password&lt;br /&gt;
+ 鉴权类型为：basic&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;配置完成后，点击侧边栏更新按钮即可同步&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&#34;https://imgse.com/i/pFNkYwD&#34;&gt;&lt;img data-src=&#34;https://s11.ax1x.com/2024/02/22/pFNkYwD.png&#34; alt=&#34;pFNkYwD.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://obsidianlyg.github.io/Note/AutoHotkey%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</guid>
             <title>AutoHotkey使用说明</title>
@@ -903,73 +1044,6 @@ pacman -S pacman-mirrorlist# 可以不写&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://obsidianlyg.github.io/Arch/Arch/%E8%A7%A3%E5%86%B3vim%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98%E5%A4%96%E5%8A%A0%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</guid>
-            <title>vim乱码问题</title>
-            <link>https://obsidianlyg.github.io/Arch/Arch/%E8%A7%A3%E5%86%B3vim%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98%E5%A4%96%E5%8A%A0%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</link>
-            <category term="arch个人笔记" scheme="https://obsidianlyg.github.io/categories/arch%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/" />
-            <category term="arch" scheme="https://obsidianlyg.github.io/tags/arch/" />
-            <pubDate>Mon, 27 Dec 2021 16:54:55 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;解决vim中文乱码问题外加基本配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决vim中文乱码问题外加基本配置&#34;&gt;#&lt;/a&gt; 解决 vim 中文乱码问题外加基本配置&lt;/h1&gt;
-&lt;p&gt;vim ~/.vimrc&lt;br /&gt;
-set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1&lt;br /&gt;
-set enc=utf8&lt;br /&gt;
-set fencs=utf8,gbk,gb2312,gb18030&lt;br /&gt;
-set nu&lt;/p&gt;
-&lt;p&gt;set mouse=a&lt;/p&gt;
-&lt;p&gt;&amp;quot; 显示颜色&lt;/p&gt;
-&lt;p&gt;set t_Co=256&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://obsidianlyg.github.io/Arch/Arch/ranger%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
-            <title>ranger常用命令</title>
-            <link>https://obsidianlyg.github.io/Arch/Arch/ranger%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
-            <category term="arch个人笔记" scheme="https://obsidianlyg.github.io/categories/arch%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/" />
-            <category term="arch" scheme="https://obsidianlyg.github.io/tags/arch/" />
-            <pubDate>Mon, 27 Dec 2021 16:54:55 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;ranger常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ranger常用命令&#34;&gt;#&lt;/a&gt; ranger 常用命令&lt;/h1&gt;
-&lt;p&gt;生成配置文件&lt;/p&gt;
-&lt;p&gt;ranger --copy-config=all&lt;/p&gt;
-&lt;p&gt;在 rc.conf 中 map f console scout -ftsea% space 搜索指定文件并显示&lt;/p&gt;
-&lt;p&gt;shift+s 进入当前文件位置&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;导航&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;f = 向下翻页&lt;/li&gt;
-&lt;li&gt;b = 向上翻页&lt;/li&gt;
-&lt;li&gt;gg = 转到列表顶部&lt;/li&gt;
-&lt;li&gt;G = 转到列表底部&lt;/li&gt;
-&lt;li&gt;H = 返回导航历史记录&lt;/li&gt;
-&lt;li&gt;h = 移至上级目录&lt;/li&gt;
-&lt;li&gt;J = 下一页 1/2 页&lt;/li&gt;
-&lt;li&gt;J = 下移&lt;/li&gt;
-&lt;li&gt;K = 上一页 1/2 页&lt;/li&gt;
-&lt;li&gt;k = 向上移动&lt;/li&gt;
-&lt;li&gt;L = 前进浏览历史记录&lt;/li&gt;
-&lt;li&gt;Q = 退出&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;处理文件&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;我… 显示文件&lt;/li&gt;
-&lt;li&gt;E | I… 编辑文件&lt;/li&gt;
-&lt;li&gt;r… 使用所选程序打开文件&lt;/li&gt;
-&lt;li&gt;cw… 重命名文件&lt;/li&gt;
-&lt;li&gt;/… 搜索文件 (n | p 跳至下一个 / 上一个匹配项)      + 部分文件名 + tab 可以直接跳转&lt;/li&gt;
-&lt;li&gt;dd .. 将文件标记为剪切&lt;/li&gt;
-&lt;li&gt;ud… 未切割&lt;/li&gt;
-&lt;li&gt;p… 粘贴文件&lt;/li&gt;
-&lt;li&gt;yy .. 复制 / 粘贴文件&lt;/li&gt;
-&lt;li&gt;zh… 显示隐藏文件&lt;/li&gt;
-&lt;li&gt;= 选择当前文件&lt;/li&gt;
-&lt;li&gt;：delete = 删除所选文件&lt;/li&gt;
-&lt;li&gt;：mkdir… 创建目录&lt;/li&gt;
-&lt;li&gt;：touch… 创建一个文件&lt;/li&gt;
-&lt;li&gt;：rename… 重命名文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;%5Bhttps://blog.csdn.net/HideOnLie/article/details/103719698?ops_request_misc=%7B%22request%5Fid%22%3A%22162843197416780265431441%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&amp;amp;request_id=162843197416780265431441&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-3-103719698.first_rank_v2_pc_rank_v29&amp;amp;utm_term=ranger%E9%A2%84%E8%A7%88%E5%9B%BE%E7%89%87&amp;amp;spm=1018.2226.3001.4187%5D(https://blog.csdn.net/HideOnLie/article/details/103719698?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162843197416780265431441%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;amp;request_id=162843197416780265431441&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-3-103719698.first_rank_v2_pc_rank_v29&amp;amp;utm_term=ranger%E9%A2%84%E8%A7%88%E5%9B%BE%E7%89%87&amp;amp;spm=1018.2226.3001.4187)&#34;&gt;相关链接&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;显示图标的 ico 插件： &lt;code&gt;git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons&lt;/code&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
