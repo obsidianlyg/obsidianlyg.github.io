@@ -904,19 +904,17 @@
         <updated>2022-01-20T16:14:39.000Z</updated>
     </entry>
     <entry>
-        <id>https://obsidianlyg.github.io/Arch/Arch/WallPaper/</id>
-        <title>壁纸网站</title>
-        <link rel="alternate" href="https://obsidianlyg.github.io/Arch/Arch/WallPaper/"/>
-        <content type="html">&lt;h1 id=&#34;wallpapers&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#wallpapers&#34;&gt;#&lt;/a&gt; WallPapers&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3dhbGxoYXZlbi5jYy8=&#34;&gt;wallhaven.cc&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3dhbGxwYXBlcnMubmV0Lw==&#34;&gt;wallpapers.net&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ZsaWNrci5jb20v&#34;&gt;flickr.com&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ltZ3VyLmNvbS8=&#34;&gt;imgur.com&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2RldmlhbnRhcnQuY29tLw==&#34;&gt;deviantart.com&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ludGVyZmFjZWxpZnQuY29tLw==&#34;&gt;interfacelift.com&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3ZsYWRzdHVkaW8uY29tLw==&#34;&gt;vladstudio.com&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2RldmlhbnRhcnQubmV0Lw==&#34;&gt;deviantart.net&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ltYWdlc2hhY2suY29tLw==&#34;&gt;imageshack.com&lt;/span&gt;&lt;/p&gt;
+        <id>https://obsidianlyg.github.io/Arch/Arch/ArcoLinux/</id>
+        <title>arch衍生版arcolinux</title>
+        <link rel="alternate" href="https://obsidianlyg.github.io/Arch/Arch/ArcoLinux/"/>
+        <content type="html">&lt;h1 id=&#34;arcolinux&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#arcolinux&#34;&gt;#&lt;/a&gt; ArcoLinux&lt;/h1&gt;
+&lt;p&gt;super+shfit+a，程序启动窗口&lt;/p&gt;
+&lt;p&gt;super+Q，退出&lt;/p&gt;
+&lt;p&gt;super + 鼠标单击，可以拖动窗口&lt;/p&gt;
+&lt;p&gt;super+Enter，打开默认 urxvt 终端模拟器，附带三个，termite,xfec 自带终端和 alacritt&lt;/p&gt;
+&lt;p&gt;Super+Space，修改当前窗口布局&lt;/p&gt;
+&lt;p&gt;软件包管理工具有 pacman,pamac,yay&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/obsidianlyg/gallery/raw/master/image//2021-08-10_08-27.png&#34; alt=&#34;ArcoLinux%20dbdbb4c808024da189a08d644815664f/2021-08-10_08-27.png&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="arch个人笔记" scheme="https://obsidianlyg.github.io/categories/arch%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/" />
         <category term="arch" scheme="https://obsidianlyg.github.io/tags/arch/" />
@@ -936,62 +934,68 @@
         <updated>2021-12-27T08:54:55.000Z</updated>
     </entry>
     <entry>
-        <id>https://obsidianlyg.github.io/Arch/Arch/arch%E6%8D%A2%E6%BA%90/</id>
-        <title>arch换源</title>
-        <link rel="alternate" href="https://obsidianlyg.github.io/Arch/Arch/arch%E6%8D%A2%E6%BA%90/"/>
-        <content type="html">&lt;h1 id=&#34;arch换源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#arch换源&#34;&gt;#&lt;/a&gt; arch 换源&lt;/h1&gt;
-&lt;p&gt;sudo wget -O /etc/pacman.d/mirrorlist &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYXJjaGxpbnV4Lm9yZy9taXJyb3JsaXN0L2FsbC8=&#34;&gt;https://www.archlinux.org/mirrorlist/all/&lt;/span&gt;&lt;br /&gt;
-sudo vim  /etc/pacman.d/mirrorlist&lt;br /&gt;
-# 进入后对 china 底下的注释删除&lt;br /&gt;
- pacman -Syy&lt;br /&gt;
-pacman -S pacman-mirrorlist# 可以不写&lt;/p&gt;
-&lt;p&gt;#注意 aur 助手 yay，yaourt 等需要添加官方源&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;然后很多教程在这里配置就结束了，就遇到一些问题，比如我们安装某些软件的时候会提示gpg签名错误损坏等这些，这个是因为没有导入key的原因，我们需要导入一下GPG KEY，具体操作就是
-安装archlinuxcn-keyring 包导入 GPG key。
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;# sudo pacman -S archlinuxcn-keyring&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;中文社区仓库&lt;/p&gt;
-&lt;p&gt;编辑 /etc/pacman.conf 配置文件&lt;/p&gt;
-&lt;p&gt;sudo vim /etc/pacman.conf&lt;/p&gt;
-&lt;p&gt;添加源&lt;/p&gt;
-&lt;p&gt;[archlinuxcn]&lt;/p&gt;
-&lt;p&gt;#The Chinese Arch Linux communities packages.&lt;/p&gt;
-&lt;p&gt;#SigLevel = Optional TrustedOnly&lt;/p&gt;
-&lt;p&gt;#SigLevel = Optional TrustAll&lt;/p&gt;
-&lt;p&gt;#官方源&lt;/p&gt;
-&lt;p&gt;Server   = [&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3JlcG8uYXJjaGxpbnV4Y24ub3JnLw==&#34;&gt;http://repo.archlinuxcn.org/&lt;/span&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;arch](http://repo.archlinuxcn.org/&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;arch)&lt;/p&gt;
-&lt;p&gt;#163 源&lt;/p&gt;
-&lt;p&gt;Server = [&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21pcnJvcnMuMTYzLmNvbS9hcmNobGludXgtY24v&#34;&gt;http://mirrors.163.com/archlinux-cn/&lt;/span&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mn&gt;163.&lt;/mn&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;arch](http://mirrors.163.com/archlinux-cn/&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;arch)&lt;/p&gt;
-&lt;p&gt;#清华大学&lt;/p&gt;
-&lt;p&gt;Server = [&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taXJyb3JzLnR1bmEudHNpbmdodWEuZWR1LmNuL2FyY2hsaW51eGNuLw==&#34;&gt;https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/&lt;/span&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;arch](https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;arch)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;以上源只能添加一个&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;yay 用户（选择性换源）&lt;/p&gt;
-&lt;p&gt;执行以下命令修改 aururl :&lt;/p&gt;
-&lt;p&gt;yay --aururl &amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hdXIudHVuYS50c2luZ2h1YS5lZHUuY24v&#34;&gt;https://aur.tuna.tsinghua.edu.cn&lt;/span&gt;&amp;quot; --save&lt;/p&gt;
-&lt;p&gt;修改的配置文件 (如果上方不行就去配置文件改成英文引号）&lt;/p&gt;
-&lt;p&gt;vim ~/.config/yay/config.json&lt;/p&gt;
-&lt;p&gt;查看配置&lt;/p&gt;
-&lt;p&gt;yay -P -g&lt;/p&gt;
-&lt;p&gt;手动更改源排名&lt;/p&gt;
-&lt;p&gt;sudo pacman-mirrors -i -c China -m rank&lt;/p&gt;
+        <id>https://obsidianlyg.github.io/Arch/Arch/WallPaper/</id>
+        <title>壁纸网站</title>
+        <link rel="alternate" href="https://obsidianlyg.github.io/Arch/Arch/WallPaper/"/>
+        <content type="html">&lt;h1 id=&#34;wallpapers&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#wallpapers&#34;&gt;#&lt;/a&gt; WallPapers&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3dhbGxoYXZlbi5jYy8=&#34;&gt;wallhaven.cc&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3dhbGxwYXBlcnMubmV0Lw==&#34;&gt;wallpapers.net&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ZsaWNrci5jb20v&#34;&gt;flickr.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ltZ3VyLmNvbS8=&#34;&gt;imgur.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2RldmlhbnRhcnQuY29tLw==&#34;&gt;deviantart.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ludGVyZmFjZWxpZnQuY29tLw==&#34;&gt;interfacelift.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3ZsYWRzdHVkaW8uY29tLw==&#34;&gt;vladstudio.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2RldmlhbnRhcnQubmV0Lw==&#34;&gt;deviantart.net&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ltYWdlc2hhY2suY29tLw==&#34;&gt;imageshack.com&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="arch个人笔记" scheme="https://obsidianlyg.github.io/categories/arch%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/" />
         <category term="arch" scheme="https://obsidianlyg.github.io/tags/arch/" />
         <updated>2021-12-27T08:54:55.000Z</updated>
     </entry>
     <entry>
-        <id>https://obsidianlyg.github.io/Arch/Arch/ArcoLinux/</id>
-        <title>arch衍生版arcolinux</title>
-        <link rel="alternate" href="https://obsidianlyg.github.io/Arch/Arch/ArcoLinux/"/>
-        <content type="html">&lt;h1 id=&#34;arcolinux&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#arcolinux&#34;&gt;#&lt;/a&gt; ArcoLinux&lt;/h1&gt;
-&lt;p&gt;super+shfit+a，程序启动窗口&lt;/p&gt;
-&lt;p&gt;super+Q，退出&lt;/p&gt;
-&lt;p&gt;super + 鼠标单击，可以拖动窗口&lt;/p&gt;
-&lt;p&gt;super+Enter，打开默认 urxvt 终端模拟器，附带三个，termite,xfec 自带终端和 alacritt&lt;/p&gt;
-&lt;p&gt;Super+Space，修改当前窗口布局&lt;/p&gt;
-&lt;p&gt;软件包管理工具有 pacman,pamac,yay&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/obsidianlyg/gallery/raw/master/image//2021-08-10_08-27.png&#34; alt=&#34;ArcoLinux%20dbdbb4c808024da189a08d644815664f/2021-08-10_08-27.png&#34; /&gt;&lt;/p&gt;
+        <id>https://obsidianlyg.github.io/Arch/Arch/ranger%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+        <title>ranger常用命令</title>
+        <link rel="alternate" href="https://obsidianlyg.github.io/Arch/Arch/ranger%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+        <content type="html">&lt;h1 id=&#34;ranger常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ranger常用命令&#34;&gt;#&lt;/a&gt; ranger 常用命令&lt;/h1&gt;
+&lt;p&gt;生成配置文件&lt;/p&gt;
+&lt;p&gt;ranger --copy-config=all&lt;/p&gt;
+&lt;p&gt;在 rc.conf 中 map f console scout -ftsea% space 搜索指定文件并显示&lt;/p&gt;
+&lt;p&gt;shift+s 进入当前文件位置&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;导航&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;f = 向下翻页&lt;/li&gt;
+&lt;li&gt;b = 向上翻页&lt;/li&gt;
+&lt;li&gt;gg = 转到列表顶部&lt;/li&gt;
+&lt;li&gt;G = 转到列表底部&lt;/li&gt;
+&lt;li&gt;H = 返回导航历史记录&lt;/li&gt;
+&lt;li&gt;h = 移至上级目录&lt;/li&gt;
+&lt;li&gt;J = 下一页 1/2 页&lt;/li&gt;
+&lt;li&gt;J = 下移&lt;/li&gt;
+&lt;li&gt;K = 上一页 1/2 页&lt;/li&gt;
+&lt;li&gt;k = 向上移动&lt;/li&gt;
+&lt;li&gt;L = 前进浏览历史记录&lt;/li&gt;
+&lt;li&gt;Q = 退出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;处理文件&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我… 显示文件&lt;/li&gt;
+&lt;li&gt;E | I… 编辑文件&lt;/li&gt;
+&lt;li&gt;r… 使用所选程序打开文件&lt;/li&gt;
+&lt;li&gt;cw… 重命名文件&lt;/li&gt;
+&lt;li&gt;/… 搜索文件 (n | p 跳至下一个 / 上一个匹配项)      + 部分文件名 + tab 可以直接跳转&lt;/li&gt;
+&lt;li&gt;dd .. 将文件标记为剪切&lt;/li&gt;
+&lt;li&gt;ud… 未切割&lt;/li&gt;
+&lt;li&gt;p… 粘贴文件&lt;/li&gt;
+&lt;li&gt;yy .. 复制 / 粘贴文件&lt;/li&gt;
+&lt;li&gt;zh… 显示隐藏文件&lt;/li&gt;
+&lt;li&gt;= 选择当前文件&lt;/li&gt;
+&lt;li&gt;：delete = 删除所选文件&lt;/li&gt;
+&lt;li&gt;：mkdir… 创建目录&lt;/li&gt;
+&lt;li&gt;：touch… 创建一个文件&lt;/li&gt;
+&lt;li&gt;：rename… 重命名文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;%5Bhttps://blog.csdn.net/HideOnLie/article/details/103719698?ops_request_misc=%7B%22request%5Fid%22%3A%22162843197416780265431441%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&amp;amp;request_id=162843197416780265431441&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-3-103719698.first_rank_v2_pc_rank_v29&amp;amp;utm_term=ranger%E9%A2%84%E8%A7%88%E5%9B%BE%E7%89%87&amp;amp;spm=1018.2226.3001.4187%5D(https://blog.csdn.net/HideOnLie/article/details/103719698?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162843197416780265431441%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;amp;request_id=162843197416780265431441&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-3-103719698.first_rank_v2_pc_rank_v29&amp;amp;utm_term=ranger%E9%A2%84%E8%A7%88%E5%9B%BE%E7%89%87&amp;amp;spm=1018.2226.3001.4187)&#34;&gt;相关链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;显示图标的 ico 插件： &lt;code&gt;git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons&lt;/code&gt;&lt;/p&gt;
 </content>
         <category term="arch个人笔记" scheme="https://obsidianlyg.github.io/categories/arch%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/" />
         <category term="arch" scheme="https://obsidianlyg.github.io/tags/arch/" />
