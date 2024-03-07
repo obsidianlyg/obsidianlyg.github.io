@@ -7,6 +7,16 @@
     "home_page_url": "https://obsidianlyg.github.io",
     "items": [
         {
+            "id": "https://obsidianlyg.github.io/Note/%E5%B0%9D%E8%AF%95%E5%90%84%E7%A7%8D%E5%8F%AF%E4%BB%A5%E8%81%94%E7%BD%91%E7%9A%84AI/",
+            "url": "https://obsidianlyg.github.io/Note/%E5%B0%9D%E8%AF%95%E5%90%84%E7%A7%8D%E5%8F%AF%E4%BB%A5%E8%81%94%E7%BD%91%E7%9A%84AI/",
+            "title": "尝试各种可以联网的AI",
+            "date_published": "2024-03-07T11:10:10.000Z",
+            "content_html": "<h2 id=\"phind\"><a class=\"anchor\" href=\"#phind\">#</a> phind</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cucGhpbmQuY29tLw==\">https://www.phind.com/</span><br />\n 搜索次数限制：无<br />\n右侧显示搜索引用文章地址链接以及大致内容缩略显示<br />\n左侧显示总结<br />\n<img data-src=\"https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/20240307190937.png\" alt=\"\" /></p>\n<h2 id=\"perplexity\"><a class=\"anchor\" href=\"#perplexity\">#</a> perplexity</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cucGVycGxleGl0eS5haS8=\">https://www.perplexity.ai/</span><br />\n 搜索次数限制：每四小时 5 次搜索<br />\n内容上下分层，样式如下：<br />\n<strong>Sources</strong><br />\n 显示引用文章地址链接<br />\n<strong> Answer</strong><br />\n 总结内容<br />\n<strong> Related</strong><br />\n 相关问题推荐<br />\n<img data-src=\"https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/20240307190659.png\" alt=\"\" /></p>\n<h2 id=\"kaigi\"><a class=\"anchor\" href=\"#kaigi\">#</a> kaigi</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9rYWdpLmNvbS8=\">https://kagi.com/</span><br />\n 搜索次数限制：无<br />\n Kagi 的 AI 集成哲学强调 AI 应该在搜索相关的、定义明确的、闭合的上下文中使用，以增强搜索体验，而不是创建或替代它。<br />\n<img data-src=\"https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/20240307190525.png\" alt=\"\" /></p>\n<h2 id=\"you\"><a class=\"anchor\" href=\"#you\">#</a> you</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly95b3UuY29tLw==\">https://you.com/</span><br />\n 搜索次数限制：smart 没有限制，其余全部 5 次<br />\n<img data-src=\"https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/20240307190258.png\" alt=\"\" /></p>\n<h2 id=\"gemini\"><a class=\"anchor\" href=\"#gemini\">#</a> Gemini</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9nZW1pbmkuZ29vZ2xlLmNvbS9hcHA=\">https://gemini.google.com/app</span><br />\n 不支持国内（<span class=\"exturl\" data-url=\"aHR0cHM6Ly9jaGF0LmdnZW1pbmkucHJvLw==\">国内版本，但不支持传图</span>）<br />\n搜索次数限制：无<br />\n<img data-src=\"https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/8593d8ef783a240db0c7249907260068.png\" alt=\"\" /></p>\n<h2 id=\"magi\"><a class=\"anchor\" href=\"#magi\">#</a> magi</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9tYWdpLmFpLw==\">https://magi.ai/</span></p>\n<blockquote>\n<p>通过 you 搜索推荐的 ai 搜索引擎，主界面很炫酷，暂时还没有注册</p>\n</blockquote>\n<p>如果这些还不够？<span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cudG9vbGlmeS5haS96aC9jYXRlZ29yeS9haS1zZWFyY2gtZW5naW5l\">尝试更多</span></p>\n",
+            "tags": [
+                "ai"
+            ]
+        },
+        {
             "id": "https://obsidianlyg.github.io/Note/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%BB%91%E5%AE%9A%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B7%B2%E6%9C%89%E8%B4%A6%E5%8F%B7/",
             "url": "https://obsidianlyg.github.io/Note/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%BB%91%E5%AE%9A%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B7%B2%E6%9C%89%E8%B4%A6%E5%8F%B7/",
             "title": "微信公众号绑定后台服务器已有账号",
@@ -191,17 +201,6 @@
             "title": "arch衍生版arcolinux",
             "date_published": "2021-12-27T08:54:55.000Z",
             "content_html": "<h1 id=\"arcolinux\"><a class=\"anchor\" href=\"#arcolinux\">#</a> ArcoLinux</h1>\n<p>super+shfit+a，程序启动窗口</p>\n<p>super+Q，退出</p>\n<p>super + 鼠标单击，可以拖动窗口</p>\n<p>super+Enter，打开默认 urxvt 终端模拟器，附带三个，termite,xfec 自带终端和 alacritt</p>\n<p>Super+Space，修改当前窗口布局</p>\n<p>软件包管理工具有 pacman,pamac,yay</p>\n<p><img data-src=\"https://gitee.com/obsidianlyg/gallery/raw/master/image//2021-08-10_08-27.png\" alt=\"ArcoLinux%20dbdbb4c808024da189a08d644815664f/2021-08-10_08-27.png\" /></p>\n",
-            "tags": [
-                "arch个人笔记",
-                "arch"
-            ]
-        },
-        {
-            "id": "https://obsidianlyg.github.io/Arch/Arch/snap%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/",
-            "url": "https://obsidianlyg.github.io/Arch/Arch/snap%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/",
-            "title": "snap的安装与使用",
-            "date_published": "2021-12-27T08:54:55.000Z",
-            "content_html": "<h1 id=\"snap的安装与使用\"><a class=\"anchor\" href=\"#snap的安装与使用\">#</a> snap 的安装与使用</h1>\n<h3 id=\"依次执行\"><a class=\"anchor\" href=\"#依次执行\">#</a> <strong>依次执行</strong></h3>\n<h3 id=\"安装\"><a class=\"anchor\" href=\"#安装\">#</a> <strong>安装</strong></h3>\n<p><code>sudo pacman -S snapd</code></p>\n<h3 id=\"启动并设置开启启动并立即启动\"><a class=\"anchor\" href=\"#启动并设置开启启动并立即启动\">#</a> <strong>启动并设置开启启动并立即启动</strong></h3>\n<p><code>sudo systemctl enable --now snapd.socket</code></p>\n<h3 id=\"添加-snap-的命令\"><a class=\"anchor\" href=\"#添加-snap-的命令\">#</a> <strong>添加 snap 的命令</strong></h3>\n<p><code>sudo ln -s /var/lib/snapd/snap /snap</code></p>\n<h3 id=\"安装完了-snap-后如果你用的是桌面系统那么你可以下载安装-snap-store-来进行-gui-界面管理\"><a class=\"anchor\" href=\"#安装完了-snap-后如果你用的是桌面系统那么你可以下载安装-snap-store-来进行-gui-界面管理\">#</a> <strong>安装完了 snap 后，如果你用的是桌面系统，那么你可以下载安装 snap store 来进行 GUI 界面管理</strong></h3>\n<p><code>sudo snap install snap-store</code></p>\n<p>目前 snap 官方给出支持以下发行版的 linux： Arch Linux CentOS Debian Deepin Elementary OS Fedora GalliumOS KDE Neon Kubuntu Linux Mint Lubuntu Manjaro Linux openSUSE Parrot Security OS Raspbian Solus Ubuntu Xubuntu Zorin OS</p>\n<p>理论上如果你的 linux 是基于以上某个发行版本的话应该也可以使用相同的方式安装 之后你就可以使用  sudo snap install packageName 的命令来安装应用了，如果安装了 snap store 的话可以打开 snap store 来选择安装 如果没有安装 snap store 的话可以到 snap store 网页中选择自己想要下载的应用，然后选择自己想要或喜欢的应用点击图标进入详情页，在详情页中点击 install 就可以看到安装的命令了，复制到终端执行即可。</p>\n",
             "tags": [
                 "arch个人笔记",
                 "arch"
