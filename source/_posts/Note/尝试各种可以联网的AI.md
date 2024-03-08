@@ -6,9 +6,10 @@ tags: ai
 ## phind
 [https://www.phind.com/](https://www.phind.com/)
 搜索次数限制：无
+内容左右分布：
 右侧显示搜索引用文章地址链接以及大致内容缩略显示
 左侧显示总结
-![](https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/20240307190937.png)
+![](https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/20240308085845.png)
 ## perplexity
 [https://www.perplexity.ai/](https://www.perplexity.ai/)
 搜索次数限制：每四小时5次搜索
@@ -19,7 +20,7 @@ tags: ai
 总结内容
 **Related**
 相关问题推荐
-![](https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/20240307190659.png)
+![](https://raw.githubusercontent.com/obsidianlyg/gallery/master/image/20240308085532.png)
 ## kaigi
 [https://kagi.com/](https://kagi.com/)
 搜索次数限制：无
