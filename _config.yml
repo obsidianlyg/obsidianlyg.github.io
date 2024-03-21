@@ -13,8 +13,8 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-#url: https://obsidianlyg.gitee.io
-#root: /
+# url: https://obsidianlyg.gitee.io
+# root: /
 
 # url: https://obsisianlyg.top/
 # root: /
@@ -136,7 +136,9 @@ reward:
 # http://obsisianlyg.top:23000/obsidian/blog.git
 deploy:
   type: git # type为git
-  repo: https://github.com/obsidianlyg/obsidianlyg.github.io # 仓库的URL
+  # 仓库的URL
+  repo: https://github.com/obsidianlyg/obsidianlyg.github.io 
+  # repo: https://gitee.com/obsidianlyg/obsidianlyg.git
 
 # edit for Theme.shoka
 autoprefixer:
