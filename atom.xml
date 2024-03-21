@@ -954,49 +954,19 @@
         <updated>2021-12-27T08:54:55.000Z</updated>
     </entry>
     <entry>
-        <id>https://obsidianlyg.gitee.io/Arch/Arch/ranger%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
-        <title>ranger常用命令</title>
-        <link rel="alternate" href="https://obsidianlyg.gitee.io/Arch/Arch/ranger%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-        <content type="html">&lt;h1 id=&#34;ranger常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ranger常用命令&#34;&gt;#&lt;/a&gt; ranger 常用命令&lt;/h1&gt;
-&lt;p&gt;生成配置文件&lt;/p&gt;
-&lt;p&gt;ranger --copy-config=all&lt;/p&gt;
-&lt;p&gt;在 rc.conf 中 map f console scout -ftsea% space 搜索指定文件并显示&lt;/p&gt;
-&lt;p&gt;shift+s 进入当前文件位置&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;导航&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;f = 向下翻页&lt;/li&gt;
-&lt;li&gt;b = 向上翻页&lt;/li&gt;
-&lt;li&gt;gg = 转到列表顶部&lt;/li&gt;
-&lt;li&gt;G = 转到列表底部&lt;/li&gt;
-&lt;li&gt;H = 返回导航历史记录&lt;/li&gt;
-&lt;li&gt;h = 移至上级目录&lt;/li&gt;
-&lt;li&gt;J = 下一页 1/2 页&lt;/li&gt;
-&lt;li&gt;J = 下移&lt;/li&gt;
-&lt;li&gt;K = 上一页 1/2 页&lt;/li&gt;
-&lt;li&gt;k = 向上移动&lt;/li&gt;
-&lt;li&gt;L = 前进浏览历史记录&lt;/li&gt;
-&lt;li&gt;Q = 退出&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;处理文件&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;我… 显示文件&lt;/li&gt;
-&lt;li&gt;E | I… 编辑文件&lt;/li&gt;
-&lt;li&gt;r… 使用所选程序打开文件&lt;/li&gt;
-&lt;li&gt;cw… 重命名文件&lt;/li&gt;
-&lt;li&gt;/… 搜索文件 (n | p 跳至下一个 / 上一个匹配项)      + 部分文件名 + tab 可以直接跳转&lt;/li&gt;
-&lt;li&gt;dd .. 将文件标记为剪切&lt;/li&gt;
-&lt;li&gt;ud… 未切割&lt;/li&gt;
-&lt;li&gt;p… 粘贴文件&lt;/li&gt;
-&lt;li&gt;yy .. 复制 / 粘贴文件&lt;/li&gt;
-&lt;li&gt;zh… 显示隐藏文件&lt;/li&gt;
-&lt;li&gt;= 选择当前文件&lt;/li&gt;
-&lt;li&gt;：delete = 删除所选文件&lt;/li&gt;
-&lt;li&gt;：mkdir… 创建目录&lt;/li&gt;
-&lt;li&gt;：touch… 创建一个文件&lt;/li&gt;
-&lt;li&gt;：rename… 重命名文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;%5Bhttps://blog.csdn.net/HideOnLie/article/details/103719698?ops_request_misc=%7B%22request%5Fid%22%3A%22162843197416780265431441%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&amp;amp;request_id=162843197416780265431441&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-3-103719698.first_rank_v2_pc_rank_v29&amp;amp;utm_term=ranger%E9%A2%84%E8%A7%88%E5%9B%BE%E7%89%87&amp;amp;spm=1018.2226.3001.4187%5D(https://blog.csdn.net/HideOnLie/article/details/103719698?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162843197416780265431441%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;amp;request_id=162843197416780265431441&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-3-103719698.first_rank_v2_pc_rank_v29&amp;amp;utm_term=ranger%E9%A2%84%E8%A7%88%E5%9B%BE%E7%89%87&amp;amp;spm=1018.2226.3001.4187)&#34;&gt;相关链接&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;显示图标的 ico 插件： &lt;code&gt;git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons&lt;/code&gt;&lt;/p&gt;
+        <id>https://obsidianlyg.gitee.io/Arch/Arch/WallPaper/</id>
+        <title>壁纸网站</title>
+        <link rel="alternate" href="https://obsidianlyg.gitee.io/Arch/Arch/WallPaper/"/>
+        <content type="html">&lt;h1 id=&#34;wallpapers&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#wallpapers&#34;&gt;#&lt;/a&gt; WallPapers&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3dhbGxoYXZlbi5jYy8=&#34;&gt;wallhaven.cc&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3dhbGxwYXBlcnMubmV0Lw==&#34;&gt;wallpapers.net&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ZsaWNrci5jb20v&#34;&gt;flickr.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ltZ3VyLmNvbS8=&#34;&gt;imgur.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2RldmlhbnRhcnQuY29tLw==&#34;&gt;deviantart.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ludGVyZmFjZWxpZnQuY29tLw==&#34;&gt;interfacelift.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3ZsYWRzdHVkaW8uY29tLw==&#34;&gt;vladstudio.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2RldmlhbnRhcnQubmV0Lw==&#34;&gt;deviantart.net&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ltYWdlc2hhY2suY29tLw==&#34;&gt;imageshack.com&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="arch个人笔记" scheme="https://obsidianlyg.gitee.io/categories/arch%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/" />
         <category term="arch" scheme="https://obsidianlyg.gitee.io/tags/arch/" />
