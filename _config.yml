@@ -234,18 +234,4 @@ feed:
     template: "themes/shoka/layout/_alternate/json.ejs"
     output: "feed.json"
 
-## 哔哔功能配置
-## 关注公众号 "黑石哔哔"，发送: //bindCurrentUser:你的APPID,你的MASTERKEY,你的RESTAPI
-## 可用leancloud国际版，国际版api为 https://appid前八位.api.lncldglobal.com
-bb:
-  title: 哔哔 #页面title
-  permalink: https://obsidianlyg.gitee.io/bb/
-  appId: QAgAM38qkcsPz8ziHqhJTfaY-gzGzoHsz
-  appKey: a9Er9gvAvkF6AEJyfJyycODn
-  serverURLs: https://qagam38q.lc-cn-n1-shared.com #你的api地址
-  #  serverURLs: ['https://cdn.jsdelivr.net/gh/line/Bilibilis@latest','https://cdn.jsdelivr.net/gh/line/tieba@latest','https://cdn.jsdelivr.net/gh/line/twemoji@latest','https://cdn.jsdelivr.net/gh/line/weibo@latest']
-  #  el: true
-  limit: 10 #显示条数
-  path: http://obsidianlyg.github.io/bb #路径名称 例如：https://你的域名/bb
-  content: "👉🏼此说说通过📱手机微信发出，主要记录黑石碎片化思考和动态。📑(若未正确显示，可以手动刷新)" #显示在哔哔上方,如不需要注释即可
 

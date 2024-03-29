@@ -9,7 +9,6 @@ hexo-autoprefixer|[链接](https://www.npmjs.com/package/hexo-autoprefixer)|给�
 hexo-algoliasearch|[链接](https://www.npmjs.com/package/hexo-algoliasearch)|站内搜索功能 | 搜索按钮失灵
 hexo-symbols-count-time|[链接](https://www.npmjs.com/package/hexo-symbols-count-time)|文章或站点字数及阅读时间统计 | 统计没有
 hexo-feed|[链接](https://www.npmjs.com/package/hexo-feed)|生成Feed文件| Feed文件没有
-hexo-bb|[链接](https://www.npmjs.com/package/hexo-bb)|生成哔哔页面| 哔哔页面无法正常显示
 
 增加备案设置
 

@@ -96,7 +96,6 @@ menu:
     archives: /archives/ || list-alt
     categories: /categories/ || th
     tags: /tags/ || tags
-  bb: /bb/ || heart
   friends: /friends/ || magic
   about: /about/ || user
   # friends: /friends/ || heart
