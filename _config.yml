@@ -246,6 +246,6 @@ bb:
   #  serverURLs: ['https://cdn.jsdelivr.net/gh/line/Bilibilis@latest','https://cdn.jsdelivr.net/gh/line/tieba@latest','https://cdn.jsdelivr.net/gh/line/twemoji@latest','https://cdn.jsdelivr.net/gh/line/weibo@latest']
   #  el: true
   limit: 10 #显示条数
-  path: bb #路径名称 例如：https://你的域名/bb
+  path: http://obsidianlyg.github.io/bb #路径名称 例如：https://你的域名/bb
   content: "👉🏼此说说通过📱手机微信发出，主要记录黑石碎片化思考和动态。📑(若未正确显示，可以手动刷新)" #显示在哔哔上方,如不需要注释即可
 
