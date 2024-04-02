@@ -10,7 +10,7 @@ copyright: false
 - 站长： obsidianlyg
 - 地址： https://obsisianlyg.top
 - 标志： https://cdn.jsdelivr.net/gh/obsidianlyg/gallery/img/avatar.jpg
-- 简介： 一条懒得翻身的咸鱼
+- 简介： 记录日常，分享知识
 
 # 申请方法
 - 添加本站后，在本页留言，格式如下
