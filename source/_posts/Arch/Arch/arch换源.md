@@ -59,7 +59,7 @@ yay用户（选择性换源）
 
 yay --aururl "[https://aur.tuna.tsinghua.edu.cn](https://aur.tuna.tsinghua.edu.cn/)" --save
 
-修改的配置文件(如果上方不行就去配置文件改成英文引号）
+修改的配置文件(如果上方不行就去配置文件改成英文引号)
 
 vim ~/.config/yay/config.json
 

@@ -11,7 +11,7 @@ tags: Linux
 
 ### 安装
 
-`apt intstall rsnapshot rsync`
+`apt install rsnapshot rsync`
 
 ### 修改配置文件
 
