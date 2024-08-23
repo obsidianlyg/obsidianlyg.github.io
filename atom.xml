@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://obsidianlyg.github.io</id>
-    <title>L小悠的日常L</title>
-    <subtitle>obsidianlyg</subtitle>
+    <title></title>
+    <subtitle>最好的生活是：时光，浓淡相宜，人心，远近相安</subtitle>
     <icon>https://obsidianlyg.github.io/images/favicon.ico</icon>
     <link href="https://obsidianlyg.github.io" />
     <author>
@@ -692,12 +692,17 @@ exports.main = async (event) =&amp;gt; &amp;#123;
 &lt;p&gt;性别：男&lt;/p&gt;
 &lt;p&gt;个人 QQ：879142964&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;简介：&lt;/p&gt;
+&lt;h1 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介：&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;爱好：硬要说的话就是，本鱼特别喜欢听音乐，&lt;br /&gt;
-特别是纯音乐，当然其他音乐也是可以接受的，&lt;br /&gt;
-音乐类型偏向轻柔吧。&lt;br /&gt;
-特别是在做事情的时候，很喜欢听音乐。&lt;/li&gt;
+&lt;li&gt;一种喜欢折腾的奇怪生物&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;本站&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#本站&#34;&gt;#&lt;/a&gt; 本站&lt;/h1&gt;
+&lt;p&gt;本站基于 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt; 搭建，主题为 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==&#34;&gt;shoka&lt;/span&gt;。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;本鱼的作品&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#本鱼的作品&#34;&gt;#&lt;/a&gt; 本鱼的作品&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidianlyg.github.io/&#34;&gt;鲈鱼的小站&lt;/a&gt;：本站&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         <category term="about" scheme="https://obsidianlyg.github.io/tags/about/" />
