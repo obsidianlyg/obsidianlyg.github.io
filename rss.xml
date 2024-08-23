@@ -697,7 +697,7 @@ exports.main = async (event) =&amp;gt; &amp;#123;
 &lt;p&gt;性别：男&lt;/p&gt;
 &lt;p&gt;个人 QQ：879142964&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h1 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介：&lt;/h1&gt;
+&lt;h1 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;一种喜欢折腾的奇怪生物&lt;/li&gt;
 &lt;/ul&gt;
