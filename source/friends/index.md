@@ -6,9 +6,9 @@ copyright: false
 ---
 
 # 本站信息
-- 站名： L小悠的日常L
+- 站名： Obsidianlyg's Blog
 - 站长： obsidianlyg
-- 地址： https://obsisianlyg.top
+- 地址： https://obsidianlyg.github.io
 - 标志： https://cdn.jsdelivr.net/gh/obsidianlyg/gallery/img/avatar.jpg
 - 简介： 记录日常，分享知识
 
