@@ -14,4 +14,5 @@ hexo-generator-sitemap|[链接](https://www.npmjs.com/package/hexo-generator-sit
 增加备案设置
 
 开启配置可在_config.shoka.yml中footer.filing中设置
+
 设置备案信息目前暂时设置在shoka/language/zh-CN.yml中
