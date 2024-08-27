@@ -234,4 +234,8 @@ feed:
     template: "themes/shoka/layout/_alternate/json.ejs"
     output: "feed.json"
 
-
+# Sitemap Generator
+sitemap:
+  path: sitemap.xml
+  prettyURLs:
+    trailingSlash: false
