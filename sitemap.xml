@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://obsidianlyg.github.io/friends/index.html</loc>
+    
+    <lastmod>2024-08-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://obsidianlyg.github.io/about/</loc>
     
     <lastmod>2024-08-23</lastmod>
@@ -68,15 +77,6 @@
     <loc>https://obsidianlyg.github.io/Arch/Arch/arch%E6%8D%A2%E6%BA%90/</loc>
     
     <lastmod>2024-04-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://obsidianlyg.github.io/friends/index.html</loc>
-    
-    <lastmod>2024-04-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -445,7 +445,7 @@
 
   <url>
     <loc>https://obsidianlyg.github.io/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -453,119 +453,119 @@
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/about/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/arch/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/Java/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/Linux/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/obsidian/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/ubuntu/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/maven/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/linux/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/ai/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/Python/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/%E8%BF%90%E7%BB%B4/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/Hexo/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/Foo/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/Bar/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/java/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/tags/vue/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -574,56 +574,56 @@
   
   <url>
     <loc>https://obsidianlyg.github.io/categories/arch%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/categories/computer-science/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/categories/usetest/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/categories/computer-science/mongo/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/categories/computer-science/note/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/categories/usetest/mktest/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/categories/usetest/test-img/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://obsidianlyg.github.io/categories/computer-science/note/theme-shoka-doc/</loc>
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
