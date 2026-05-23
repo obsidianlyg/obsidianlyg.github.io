@@ -74,7 +74,7 @@ category_map:
   使用测试: usetest
   图床的测试: test-img
   markdown测试: mktest
-tag_map:
+# tag_map:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

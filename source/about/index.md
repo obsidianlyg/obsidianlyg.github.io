@@ -2,8 +2,6 @@
 title: 关于个人
 subtitle: 来自一条鱼的废话
 date: 2022/06/27
-tags:
-- about
 ---
 
 # 本鱼
