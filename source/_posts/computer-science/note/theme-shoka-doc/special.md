@@ -38,7 +38,7 @@ valine:
 |`image`|站点图片|可选，默认为`images/404.png`|
 |`color`|方块颜色|可选，默认为`#666`|
 
-```raw top
+```markdown top
 &#123;% links %&#125;
 - site: #站点名称
   owner: #管理员名字
@@ -51,7 +51,7 @@ valine:
 
 举个栗子：
 
-```raw
+```markdown
 &#123;% links %&#125;
 - site: 優萌初華
   owner: 霜月琉璃
@@ -95,13 +95,13 @@ valine:
 2. 以上标签块里的内容，还可以保存到一个`yml`文件中，然后使用`linksfile`标签。
 其中，`path`位于`<root>/source`目录下。
 
-```raw
+```markdown
 &#123;% linksfile [path] %&#125;
 ```
 
 举个栗子：
 
-```raw
+```markdown
 &#123;% linksfile friends/_data.yml %&#125;
 ```
 
@@ -111,20 +111,20 @@ valine:
 
 基本格式：`[language] [title] [url] [link text] [mark] [command]`
 
-选项|描述|默认值
---|--|--
-language| - 支持的语言[戳此](https://prismjs.com/#supported-languages)|null \
-| | - 如果不需要代码高亮，但希望显示代码块样式，则设为`raw` | \
-| | - 留空或设为`info`，将不显示代码高亮和代码块样式 | |
-title|代码块的标题文字|null
-url|代码块标题右侧显示的链接|null
-link text|上述链接显示的标题|link
-mark|行高亮显示，格式为`mark:行号,行号开始-行号结束,其他行号`。| null \
-| |例如`mark:1,4-7,10`，将高亮显示第1、4、5、6、7、10行| |
-command|命令行提示符，格式为`command:("提示内容":行号,行号||"提示内容":行号开始-行号结束)`| null \
-| |例如`command:("[root@localhost] $":1,9-10||"[admin@remotehost] #":4-6)` | |
+| 选项 | 描述 | 默认值 |
+| --- | --- | --- |
+| language | - 支持的语言[戳此](https://prismjs.com/#supported-languages) | `null` |
+|  | - 如果不需要代码高亮，但希望显示代码块样式，则设为`raw` |  |
+|  | - 留空或设为`info`，将不显示代码高亮和代码块样式 |  |
+| title | 代码块的标题文字 | `null` |
+| url | 代码块标题右侧显示的链接 | `null` |
+| link text | 上述链接显示的标题 | `link` |
+| mark | 行高亮显示，格式为`mark:行号,行号开始-行号结束,其他行号`。 | `null` |
+|  | 例如`mark:1,4-7,10`，将高亮显示第1、4、5、6、7、10行 |  |
+| command | 命令行提示符，格式为`command:("提示内容":行号,行号||"提示内容":行号开始-行号结束)` | `null` |
+|  | 例如`command:("[root@localhost] $":1,9-10||"[admin@remotehost] #":4-6)` |  |
 
-~~~raw
+~~~markdown
 ```java 行高亮 https://shoka.lostyu.me 参考链接 mark:1,6-7
 import java.util.Scanner;
 ...
@@ -178,7 +178,7 @@ git push
 这个功能是用来显示练习题的。
 需要在Front Matter中添加`quiz: true`，以正确显示题型标签。
 
-~~~raw 几个例子
+~~~markdown 几个例子
 ---
 title: 练习题与答案
 quiz: true
@@ -251,13 +251,13 @@ quiz: true
 ## 使用说明
 本功能基于`markdown-it-bracketed-spans`和`markdown-it-attrs`
 
-标签|含义
---|--
-`{.quiz}` | 选择题
-`{.quiz .multi}` | 多选题
-`{.quiz .true}` | 正确的判断题
-`{.quiz .false}` | 错误的判断题
-`{.quiz .fill}` | 填空题
+| 标签 | 含义 |
+| --- | --- |
+| `{.quiz}` | 选择题 |
+| `{.quiz .multi}` | 多选题 |
+| `{.quiz .true}` | 正确的判断题 |
+| `{.quiz .false}` | 错误的判断题 |
+| `{.quiz .fill}` | 填空题 |
 `[]{.gap}` | 空白下划线
 `[答案内容]{.gap}` | 答案内容带下划线
 `{.options}` | ABCDE选项
@@ -270,7 +270,7 @@ quiz: true
 
 本功能基于`markdown-it-emoji`，所有[标签参考戳此](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
 
-```raw
+```markdown
 :kissing_heart:
 :ring:
 :notes:
@@ -284,7 +284,7 @@ quiz: true
 
 > 本主题风格颜色通用样式：default、primary、success、info、warning、danger
 
-```raw
+```markdown
 ++下划线++
 ++波浪线++{.wavy}
 ++着重点++{.dot}
@@ -341,7 +341,7 @@ H~2~0
 
 本功能基于`markdown-it-spoiler`和`markdown-it-attrs`
 
-```raw
+```markdown
 !!黑幕黑幕黑幕黑幕黑幕黑幕!! ： 鼠标滑过显示内容
 !!模糊模糊模糊模糊模糊模糊!!{.bulr} ： 选中文字显示内容
 ```
@@ -354,7 +354,7 @@ H~2~0
 本功能基于`markdown-it-bracketed-spans`和`markdown-it-attrs`
 有以下颜色可选
 
-```raw
+```markdown
 [default]{.label}
 [primary]{.label .primary}
 [info]{.label .info}
@@ -375,11 +375,12 @@ H~2~0
 本功能基于`markdown-it-container`
 标签为：
 
---|--
-开始行|`:::[风格颜色]`
-结束行|`:::`
+| 标记 | 写法 |
+| --- | --- |
+| 开始行 | `:::[风格颜色]` |
+| 结束行 | `:::` |
 
-```raw
+```markdown
 :::default
 默认默认
 :::
@@ -442,11 +443,12 @@ H~2~0
 本功能基于`markdown-it-container`
 标签为：
 
---|--
-开始行|`;;;[同一ID] [标签名称]`
-结束行|`;;;`
+| 标记 | 写法 |
+| --- | --- |
+| 开始行 | `;;;[同一ID] [标签名称]` |
+| 结束行 | `;;;` |
 
-```raw
+```markdown
 ;;;id1 卡片1
 这里是卡片1的内容
 **加粗**
@@ -516,11 +518,12 @@ H~2~0
 本功能基于`markdown-it-container`
 标签为：
 
---|--
-开始行|`+++[风格颜色] [标题文字]`
-结束行|`+++`
+| 标记 | 写法 |
+| --- | --- |
+| 开始行 | `+++[风格颜色] [标题文字]` |
+| 结束行 | `+++` |
 
-```raw
+```markdown
 +++ 默认默认 这里是一段文字
 ++下划线++
 +++
@@ -612,7 +615,7 @@ H~2~0
 本功能基于`markdown-it-task-checkbox`。
 可以利用`markdown-it-attrs`添加风格颜色，只可以给`ul`标签添加，需要新建两行。
 
-```raw
+```markdown
 - [ ] 这是一个小叉叉
 - [x] 这是一个红色勾勾
 
@@ -646,14 +649,15 @@ H~2~0
 为了兼容性，采用`markdown-it-ruby`的基本格式：`{文字^注音}`，并且为了兼容表格，将分隔符由`|`换成了`^`。
 注音分隔基于`furigana-markdown-it`[显示说明看这里](https://www.npmjs.com/package/furigana-markdown-it#quick-usage)
 
---|--
-`{取り返す^とりかえす}`|{取り返す^とりかえす}
-`{可愛い犬^か+わい・い・いぬ}`|{可愛い犬^か+わい・い・いぬ}
-`{可愛い犬^か・わい・いいぬ}`|{可愛い犬^か・わい・いいぬ}
-`{アクセラレータ^accelerator}` | {アクセラレータ^accelerator}
-`{accelerator^アクセラレータ}` | {accelerator^アクセラレータ}
-`{食べる^たべる}` | {食べる^たべる}
-`{食べる^=たべる}` | {食べる^=たべる}
+| 写法 | 效果 |
+| --- | --- |
+| `{取り返す^とりかえす}` | {取り返す^とりかえす} |
+| `{可愛い犬^か+わい・い・いぬ}` | {可愛い犬^か+わい・い・いぬ} |
+| `{可愛い犬^か・わい・いいぬ}` | {可愛い犬^か・わい・いいぬ} |
+| `{アクセラレータ^accelerator}` | {アクセラレータ^accelerator} |
+| `{accelerator^アクセラレータ}` | {accelerator^アクセラレータ} |
+| `{食べる^たべる}` | {食べる^たべる} |
+| `{食べる^=たべる}` | {食べる^=たべる} |
 `{あいうえお^*}` | {あいうえお^*}
 `{あいうえお^*❤}` | {あいうえお^*❤}
 `{常用账号^contact}`|{常用账号^contact}
@@ -661,7 +665,7 @@ H~2~0
 # `media`多媒体
 本功能基于Hexo Tag功能，使用`media`标签，目前可选择两种类型，即`audio`和`video`。
 
-```raw
+```markdown
 &#123;% media audio %&#125;
 ...音频列表
 &#123;% endmedia %&#125;
@@ -676,7 +680,7 @@ H~2~0
 亦可以直接使用网易云、虾米、QQ音乐的播放列表、单曲。
 
 
-```raw 举个栗子
+```markdown 举个栗子
 &#123;% media audio %&#125;
 - title: 列表1
   list:
@@ -720,7 +724,7 @@ H~2~0
 本功能基于`markdown-it-katex`
 在Front Matter中添加`math: true`以支持[KaTex](https://katex.org/)
 
-```raw 
+```markdown
 ---
 title: 数学公式显示
 math: true
@@ -761,7 +765,7 @@ $$\begin{array}{c}
 本功能基于`markdown-it-mermaid`
 在Front Matter中添加`mermaid: true`以支持[Mermaid](https://mermaid-js.github.io/mermaid/#/)
 
-~~~raw
+~~~markdown
 ---
 title: 流程图显示
 mermaid: true

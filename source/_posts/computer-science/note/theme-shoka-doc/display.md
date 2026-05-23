@@ -19,7 +19,7 @@ valine:
 在文章的Front Matter设置`sticky: true`，则该文章将显示在首页最上方的`置顶文章`列。
 多篇文章按照发布时间倒序排列，不分页。
 
-```raw
+```markdown
 ---
 title: 置顶文章
 sticky: true
@@ -110,14 +110,14 @@ sticky: true
 下面介绍一些小技巧：
 
 1. 让图案下方显示`title`的markdown代码
-```raw
+```markdown
 ![这里是alt](https://tva3.sinaimg.cn/large/6833939bly1gicis081o9j20zk0m8dmr.jpg "这里是title")
 ```
 ![这里是alt](https://tva3.sinaimg.cn/large/6833939bly1gicis081o9j20zk0m8dmr.jpg "这里是title")
 
 2. 设置图片的大小
    
-```raw
+```markdown
 ![](https://tva3.sinaimg.cn/large/6833939bly1gicis081o9j20zk0m8dmr.jpg "定义图片大小-固定宽度和高度"){height="100px" width="400px"}
 
 ![](https://tva3.sinaimg.cn/large/6833939bly1gicis081o9j20zk0m8dmr.jpg "定义图片大小-固定宽度"){width="400px"}
@@ -132,7 +132,7 @@ sticky: true
 ![](https://tva3.sinaimg.cn/large/6833939bly1gicis081o9j20zk0m8dmr.jpg "定义图片大小-固定高度"){height="100px"}
 
 3. 除了在Front Matter里配置`photos`可以显示相册图案列表外，还可以这样写
-```raw
+```markdown
 ## 图案列表No.1
 ![](https://tva3.sinaimg.cn/large/6833939bly1giclfdu6exj20zk0m87hw.jpg "这里是title")
 ![](https://tva3.sinaimg.cn/large/6833939bly1giclflwv2aj20zk0m84qp.jpg)
@@ -174,11 +174,11 @@ sticky: true
 
 主题支持在`<root>/source/_data/`目录建立三个自定义`styl`文件：
 
-自定义文件名|对应默认样式文件|样式功能
---|--|--
-`colors.styl`|`_colors.styl`|页面配色
-`iconfont.styl`|`_iconfont.styl`|[图标样式](../config/#iconfont图标)
-`custom.styl`| - | 任意自定义样式
+| 自定义文件名 | 对应默认样式文件 | 样式功能 |
+| --- | --- | --- |
+| `colors.styl` | `_colors.styl` | 页面配色 |
+| `iconfont.styl` | `_iconfont.styl` | [图标样式](../config/#iconfont图标) |
+| `custom.styl` | - | 任意自定义样式 |
 
 # 自定义主题图片
 如果想要修改主题的`<root>/themes/shoka/source/images/`目录内的某张图片，请在`<root>/source/_data/`目录新建目录`images`，并在这个文件夹中添加++同名++文件，部署时将自动覆盖主题内的默认图片。

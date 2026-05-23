@@ -20,13 +20,13 @@ valine:
 
 Theme Shoka依赖以下Hexo插件
 
-插件名称|npm地址|功能|依赖程度
---|--|--|--
-hexo-renderer-multi-markdown-it|[链接](https://www.npmjs.com/package/hexo-renderer-multi-markdown-it)|md文件渲染器，压缩css/js/html | 必需
-hexo-autoprefixer|[链接](https://www.npmjs.com/package/hexo-autoprefixer)|给生成的css文件们添加浏览器前缀 | 必需
-hexo-algoliasearch|[链接](https://www.npmjs.com/package/hexo-algoliasearch)|站内搜索功能 | 搜索按钮失灵
-hexo-symbols-count-time|[链接](https://www.npmjs.com/package/hexo-symbols-count-time)|文章或站点字数及阅读时间统计 | 统计没有
-hexo-feed|[链接](https://www.npmjs.com/package/hexo-feed)|生成Feed文件| Feed文件没有
+| 插件名称 | npm地址 | 功能 | 依赖程度 |
+| --- | --- | --- | --- |
+| hexo-renderer-multi-markdown-it | [链接](https://www.npmjs.com/package/hexo-renderer-multi-markdown-it) | md文件渲染器，压缩css/js/html | 必需 |
+| hexo-autoprefixer | [链接](https://www.npmjs.com/package/hexo-autoprefixer) | 给生成的css文件们添加浏览器前缀 | 必需 |
+| hexo-algoliasearch | [链接](https://www.npmjs.com/package/hexo-algoliasearch) | 站内搜索功能 | 搜索按钮失灵 |
+| hexo-symbols-count-time | [链接](https://www.npmjs.com/package/hexo-symbols-count-time) | 文章或站点字数及阅读时间统计 | 统计没有 |
+| hexo-feed | [链接](https://www.npmjs.com/package/hexo-feed) | 生成Feed文件 | Feed文件没有 |
 
 
 > 没有正确安装以上插件的话，本主题会报错or无法正确显示or部分功能失效。

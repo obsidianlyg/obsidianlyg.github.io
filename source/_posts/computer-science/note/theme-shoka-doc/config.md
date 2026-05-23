@@ -400,14 +400,15 @@ vendors:
 ```
 包括
 
---|--|--
-`pace` | 加载进度条|全局
-`pjax` | 页面无刷新加载|全局
-`anime` | js动画效果|全局
-`algolia` `instantsearch`| 基于algolia的站内搜索|全局
-`lazyload` | 图片懒加载|全局
-`quicklink` | 链接资源预加载|全局
-`fetch` | 获取播放列表|全局
+| 组件 | 说明 | 范围 |
+| --- | --- | --- |
+| `pace` | 加载进度条 | 全局 |
+| `pjax` | 页面无刷新加载 | 全局 |
+| `anime` | js动画效果 | 全局 |
+| `algolia` `instantsearch` | 基于algolia的站内搜索 | 全局 |
+| `lazyload` | 图片懒加载 | 全局 |
+| `quicklink` | 链接资源预加载 | 全局 |
+| `fetch` | 获取播放列表 | 全局 |
 `katex` `copy_tex`|数学公式显示及复制|按需
 `fancybox` | 图片放大显示及排列|按需
 `valine` | 基于LeanCloud的评论系统及文章阅读次数统计|按需

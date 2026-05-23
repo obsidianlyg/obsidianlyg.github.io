@@ -134,7 +134,7 @@ insert into "topic" ("forum_id", "subject")
 values (2, 'D''artagnian');
 ```
 
-```objectivec 
+```objective-c 
 #import <UIKit/UIKit.h>
 #import "Dependency.h"
 
