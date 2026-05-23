@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://obsidianlyg.github.io
+url: https://obsidianlyg.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -110,7 +110,8 @@ theme: shokax
 deploy:
   type: git # type为git
   # 仓库的URL
-  repo: https://github.com/obsidianlyg/obsidianlyg.github.io 
+  repo: https://github.com/obsidianlyg/obsidianlyg.github.io.git
+  branch: gh-pages
 
 feed:
   limit: 20

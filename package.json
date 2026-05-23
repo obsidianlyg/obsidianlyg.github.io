@@ -49,5 +49,8 @@
     "twikoo": "1.6.44",
     "vue": "3.5.18",
     "yocto-queue": "^1.2.1"
+  },
+  "devDependencies": {
+    "hexo-deployer-git": "^4.0.0"
   }
 }
