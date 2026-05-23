@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://obsidianlyg.github.io</id>
     <title></title>
     <subtitle></subtitle>
-    <icon>http://localhost:4000/assets/favicon.ico</icon>
-    <link href="http://localhost:4000" />
+    <icon>https://obsidianlyg.github.io/assets/favicon.ico</icon>
+    <link href="https://obsidianlyg.github.io" />
     <author>
       <name>obsidianlyg</name>
     </author>
     <updated>2024-08-30T05:50:39.000Z</updated>
     <entry>
-        <id>http://localhost:4000/2024/08/30/Note/frp/</id>
+        <id>https://obsidianlyg.github.io/2024/08/30/Note/frp/</id>
         <title>frp的v2版本配置</title>
-        <link rel="alternate" href="http://localhost:4000/2024/08/30/Note/frp/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/08/30/Note/frp/"/>
         <content type="html">&lt;h2 id=&#34;服务端配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#服务端配置&#34;&gt;#&lt;/a&gt; &lt;strong&gt;服务端配置&lt;/strong&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -209,13 +209,13 @@
 &lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;systemctl&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; start&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; frpc@&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;systemctl&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; start&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; frpc@&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="Linux" scheme="http://localhost:4000/tags/Linux/" />
+        <category term="Linux" scheme="https://obsidianlyg.github.io/tags/Linux/" />
         <updated>2024-08-30T05:50:39.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/07/31/Note/%E9%80%9A%E8%BF%87JSONObject%E5%AE%9E%E7%8E%B0%E4%BC%A0%E5%8F%82%E4%B8%8E%E5%88%86%E9%A1%B5%E9%80%BB%E8%BE%91/</id>
+        <id>https://obsidianlyg.github.io/2024/07/31/Note/%E9%80%9A%E8%BF%87JSONObject%E5%AE%9E%E7%8E%B0%E4%BC%A0%E5%8F%82%E4%B8%8E%E5%88%86%E9%A1%B5%E9%80%BB%E8%BE%91/</id>
         <title>通过JSONObject实现传参与分页逻辑</title>
-        <link rel="alternate" href="http://localhost:4000/2024/07/31/Note/%E9%80%9A%E8%BF%87JSONObject%E5%AE%9E%E7%8E%B0%E4%BC%A0%E5%8F%82%E4%B8%8E%E5%88%86%E9%A1%B5%E9%80%BB%E8%BE%91/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/07/31/Note/%E9%80%9A%E8%BF%87JSONObject%E5%AE%9E%E7%8E%B0%E4%BC%A0%E5%8F%82%E4%B8%8E%E5%88%86%E9%A1%B5%E9%80%BB%E8%BE%91/"/>
         <content type="html">&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;在开发中，我们经常需要通过接口传递参数，并且需要分页。那么如何通过JSONObject实现传参与分页逻辑呢？&lt;/p&gt;
 &lt;h2 id=&#34;实现思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现思路&#34;&gt;#&lt;/a&gt; 实现思路&lt;/h2&gt;
@@ -351,13 +351,13 @@
 &lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;SELECT&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt; *&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt; FROM&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; contractpayment &lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;WHERE&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt; =&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt; ifnull&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;, &lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="java" scheme="http://localhost:4000/tags/java/" />
+        <category term="java" scheme="https://obsidianlyg.github.io/tags/java/" />
         <updated>2024-07-31T07:52:59.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/07/18/Note/%E5%85%B3%E4%BA%8EUniApp%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</id>
+        <id>https://obsidianlyg.github.io/2024/07/18/Note/%E5%85%B3%E4%BA%8EUniApp%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</id>
         <title>关于UniApp使用的个人笔记</title>
-        <link rel="alternate" href="http://localhost:4000/2024/07/18/Note/%E5%85%B3%E4%BA%8EUniApp%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/07/18/Note/%E5%85%B3%E4%BA%8EUniApp%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h1 id=&#34;uniapp&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uniapp&#34;&gt;#&lt;/a&gt; UniApp&lt;/h1&gt;
 &lt;h2 id=&#34;开发者中心&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开发者中心&#34;&gt;#&lt;/a&gt; 开发者中心&lt;/h2&gt;
 &lt;p&gt;用于注册应用以及申请对应证书&lt;/p&gt;
@@ -731,13 +731,13 @@
 &lt;/ol&gt;
 &lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;uni.clearStorageSync(); &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="vue" scheme="http://localhost:4000/tags/vue/" />
+        <category term="vue" scheme="https://obsidianlyg.github.io/tags/vue/" />
         <updated>2024-07-18T09:56:20.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/07/18/Note/java%E4%BD%BF%E7%94%A8zxing%E7%94%9F%E6%88%90%E4%BA%8C%E7%BB%B4%E7%A0%81/</id>
+        <id>https://obsidianlyg.github.io/2024/07/18/Note/java%E4%BD%BF%E7%94%A8zxing%E7%94%9F%E6%88%90%E4%BA%8C%E7%BB%B4%E7%A0%81/</id>
         <title>java使用zxing生成二维码</title>
-        <link rel="alternate" href="http://localhost:4000/2024/07/18/Note/java%E4%BD%BF%E7%94%A8zxing%E7%94%9F%E6%88%90%E4%BA%8C%E7%BB%B4%E7%A0%81/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/07/18/Note/java%E4%BD%BF%E7%94%A8zxing%E7%94%9F%E6%88%90%E4%BA%8C%E7%BB%B4%E7%A0%81/"/>
         <content type="html">&lt;h3 id=&#34;导入依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入依赖&#34;&gt;#&lt;/a&gt; 导入依赖&lt;/h3&gt;
 &lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;properties&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;   &lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;zxing.version&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;3.4.0&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;zxing.version&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
@@ -1041,13 +1041,13 @@
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;  &lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="java" scheme="http://localhost:4000/tags/java/" />
+        <category term="java" scheme="https://obsidianlyg.github.io/tags/java/" />
         <updated>2024-07-18T09:53:20.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/05/30/Note/%E5%85%B3%E4%BA%8Ed3js%E7%94%9F%E6%88%90%E8%8A%82%E7%82%B9%E7%94%BB%E5%B8%83%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</id>
+        <id>https://obsidianlyg.github.io/2024/05/30/Note/%E5%85%B3%E4%BA%8Ed3js%E7%94%9F%E6%88%90%E8%8A%82%E7%82%B9%E7%94%BB%E5%B8%83%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</id>
         <title>关于d3js生成节点画布的个人笔记</title>
-        <link rel="alternate" href="http://localhost:4000/2024/05/30/Note/%E5%85%B3%E4%BA%8Ed3js%E7%94%9F%E6%88%90%E8%8A%82%E7%82%B9%E7%94%BB%E5%B8%83%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/05/30/Note/%E5%85%B3%E4%BA%8Ed3js%E7%94%9F%E6%88%90%E8%8A%82%E7%82%B9%E7%94%BB%E5%B8%83%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h2 id=&#34;实现功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现功能&#34;&gt;#&lt;/a&gt; 实现功能&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;根据鼠标位置生成节点&lt;/li&gt;
@@ -1573,9 +1573,9 @@
         <updated>2024-05-30T12:15:12.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/04/11/Note/Ubuntu%E5%AE%89%E8%A3%85%E5%90%8E%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E5%85%A8%E9%83%A8%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E9%97%AE%E9%A2%98/</id>
+        <id>https://obsidianlyg.github.io/2024/04/11/Note/Ubuntu%E5%AE%89%E8%A3%85%E5%90%8E%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E5%85%A8%E9%83%A8%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E9%97%AE%E9%A2%98/</id>
         <title>Ubuntu安装后无法加载全部磁盘空间问题</title>
-        <link rel="alternate" href="http://localhost:4000/2024/04/11/Note/Ubuntu%E5%AE%89%E8%A3%85%E5%90%8E%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E5%85%A8%E9%83%A8%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E9%97%AE%E9%A2%98/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/04/11/Note/Ubuntu%E5%AE%89%E8%A3%85%E5%90%8E%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E5%85%A8%E9%83%A8%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E9%97%AE%E9%A2%98/"/>
         <content type="html">&lt;h1 id=&#34;原因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#原因&#34;&gt;#&lt;/a&gt; 原因&lt;/h1&gt;
 &lt;p&gt;在安装UbuntuServer时由于第一次载入镜像选择默认镜像源，导致apt配置始终无法加载但已经自动分配好空间了，强制退出后重新选择镜像源重复默认安装步骤后没有手动分配空间，导致磁盘自动搜索剩余空间进行安装。&lt;/p&gt;
 &lt;h1 id=&#34;解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方案&#34;&gt;#&lt;/a&gt; 解决方案&lt;/h1&gt;
@@ -1588,13 +1588,13 @@
 &lt;h1 id=&#34;参考链接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参考链接&#34;&gt;#&lt;/a&gt; 参考链接&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/liutit/article/details/132364616&#34;&gt;ubuntu安装空间只有磁盘一半&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="ubuntu" scheme="http://localhost:4000/tags/ubuntu/" />
+        <category term="ubuntu" scheme="https://obsidianlyg.github.io/tags/ubuntu/" />
         <updated>2024-04-11T02:32:00.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/03/12/Note/%E5%85%B3%E4%BA%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%A2%AB%E5%85%A5%E4%BE%B5%E7%9A%84%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97(%E2%94%AC%E2%94%AC%EF%B9%8F%E2%94%AC%E2%94%AC)/</id>
+        <id>https://obsidianlyg.github.io/2024/03/12/Note/%E5%85%B3%E4%BA%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%A2%AB%E5%85%A5%E4%BE%B5%E7%9A%84%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97(%E2%94%AC%E2%94%AC%EF%B9%8F%E2%94%AC%E2%94%AC)/</id>
         <title>关于服务器被入侵的个人日志(┬┬﹏┬┬)</title>
-        <link rel="alternate" href="http://localhost:4000/2024/03/12/Note/%E5%85%B3%E4%BA%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%A2%AB%E5%85%A5%E4%BE%B5%E7%9A%84%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97(%E2%94%AC%E2%94%AC%EF%B9%8F%E2%94%AC%E2%94%AC)/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/03/12/Note/%E5%85%B3%E4%BA%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%A2%AB%E5%85%A5%E4%BE%B5%E7%9A%84%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97(%E2%94%AC%E2%94%AC%EF%B9%8F%E2%94%AC%E2%94%AC)/"/>
         <content type="html">&lt;h2 id=&#34;发现起因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#发现起因&#34;&gt;#&lt;/a&gt; 发现起因&lt;/h2&gt;
 &lt;p&gt;打开htop发现cpu占用过高，查找占用过高进程，发现有五个相同名称的杂乱英文字符的进程&lt;br /&gt;
 普通用户无法进行删除，通过root删除后又会出现另一串占用100%cpu的杂乱英文字符进程，并且在htop中发现systemd进程，每5s重启一次，感觉是密码太简单了，赶紧先换密码再说&lt;/p&gt;
@@ -1607,13 +1607,13 @@
 （由于本人过于好奇暂时用mv移入别处，经过查找发现是开源挖矿XMRig程序外加systemd启动脚本😑）&lt;br /&gt;
 此时基本解决了cpu占用问题，重启后也不会启动了&lt;/p&gt;
 </content>
-        <category term="运维" scheme="http://localhost:4000/tags/%E8%BF%90%E7%BB%B4/" />
+        <category term="运维" scheme="https://obsidianlyg.github.io/tags/%E8%BF%90%E7%BB%B4/" />
         <updated>2024-03-12T06:10:10.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/03/07/Note/%E5%B0%9D%E8%AF%95%E5%90%84%E7%A7%8D%E5%8F%AF%E4%BB%A5%E8%81%94%E7%BD%91%E7%9A%84AI/</id>
+        <id>https://obsidianlyg.github.io/2024/03/07/Note/%E5%B0%9D%E8%AF%95%E5%90%84%E7%A7%8D%E5%8F%AF%E4%BB%A5%E8%81%94%E7%BD%91%E7%9A%84AI/</id>
         <title>尝试各种可以联网的AI</title>
-        <link rel="alternate" href="http://localhost:4000/2024/03/07/Note/%E5%B0%9D%E8%AF%95%E5%90%84%E7%A7%8D%E5%8F%AF%E4%BB%A5%E8%81%94%E7%BD%91%E7%9A%84AI/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/03/07/Note/%E5%B0%9D%E8%AF%95%E5%90%84%E7%A7%8D%E5%8F%AF%E4%BB%A5%E8%81%94%E7%BD%91%E7%9A%84AI/"/>
         <content type="html">&lt;h2 id=&#34;phind&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#phind&#34;&gt;#&lt;/a&gt; phind&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.phind.com/&#34;&gt;https://www.phind.com/&lt;/a&gt;&lt;br /&gt;
 搜索次数限制：无&lt;br /&gt;
@@ -1653,13 +1653,13 @@ Kagi的AI集成哲学强调AI应该在搜索相关的、定义明确的、闭合
 &lt;/blockquote&gt;
 &lt;p&gt;如果这些还不够？&lt;a href=&#34;https://www.toolify.ai/zh/category/ai-search-engine&#34;&gt;尝试更多&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="ai" scheme="http://localhost:4000/tags/ai/" />
+        <category term="ai" scheme="https://obsidianlyg.github.io/tags/ai/" />
         <updated>2024-03-07T11:10:10.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/02/23/Note/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%BB%91%E5%AE%9A%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B7%B2%E6%9C%89%E8%B4%A6%E5%8F%B7/</id>
+        <id>https://obsidianlyg.github.io/2024/02/23/Note/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%BB%91%E5%AE%9A%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B7%B2%E6%9C%89%E8%B4%A6%E5%8F%B7/</id>
         <title>微信公众号绑定后台服务器已有账号</title>
-        <link rel="alternate" href="http://localhost:4000/2024/02/23/Note/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%BB%91%E5%AE%9A%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B7%B2%E6%9C%89%E8%B4%A6%E5%8F%B7/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/02/23/Note/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%BB%91%E5%AE%9A%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B7%B2%E6%9C%89%E8%B4%A6%E5%8F%B7/"/>
         <content type="html">&lt;h2 id=&#34;前置条件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前置条件&#34;&gt;#&lt;/a&gt; 前置条件&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;已认证&lt;a href=&#34;https://mp.weixin.qq.com/&#34;&gt;公众号&lt;/a&gt;/已申请&lt;a href=&#34;https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&amp;amp;t=sandbox/index&#34;&gt;微信测试接口&lt;/a&gt;&lt;br /&gt;
@@ -1915,13 +1915,13 @@ Kagi的AI集成哲学强调AI应该在搜索相关的、定义明确的、闭合
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_37928038/article/details/123416947&#34;&gt;参考链接&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="Java" scheme="http://localhost:4000/tags/Java/" />
+        <category term="Java" scheme="https://obsidianlyg.github.io/tags/Java/" />
         <updated>2024-02-23T07:51:39.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/02/23/Note/Obsidian%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%EF%BC%88%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F%EF%BC%89/</id>
+        <id>https://obsidianlyg.github.io/2024/02/23/Note/Obsidian%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%EF%BC%88%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F%EF%BC%89/</id>
         <title>Obsidian笔记软件(插件收藏)</title>
-        <link rel="alternate" href="http://localhost:4000/2024/02/23/Note/Obsidian%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%EF%BC%88%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F%EF%BC%89/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/02/23/Note/Obsidian%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%EF%BC%88%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F%EF%BC%89/"/>
         <content type="html">&lt;h3 id=&#34;快捷键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快捷键&#34;&gt;#&lt;/a&gt; 快捷键：&lt;/h3&gt;
 &lt;p&gt;生成properties &lt;code&gt;ctrl + ;&lt;/code&gt; 或者用 三个&lt;code&gt;-&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;外观主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#外观主题&#34;&gt;#&lt;/a&gt; 外观主题：&lt;/h3&gt;
@@ -2061,13 +2061,13 @@ Kagi的AI集成哲学强调AI应该在搜索相关的、定义明确的、闭合
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="obsidian" scheme="http://localhost:4000/tags/obsidian/" />
+        <category term="obsidian" scheme="https://obsidianlyg.github.io/tags/obsidian/" />
         <updated>2024-02-23T03:20:39.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/02/22/Note/%E5%85%B3%E4%BA%8Eobsidian%E7%9A%84%E5%85%8D%E8%B4%B9%E5%90%8C%E6%AD%A5%E6%96%B9%E6%B3%95/</id>
+        <id>https://obsidianlyg.github.io/2024/02/22/Note/%E5%85%B3%E4%BA%8Eobsidian%E7%9A%84%E5%85%8D%E8%B4%B9%E5%90%8C%E6%AD%A5%E6%96%B9%E6%B3%95/</id>
         <title>关于obsidian的免费同步方法</title>
-        <link rel="alternate" href="http://localhost:4000/2024/02/22/Note/%E5%85%B3%E4%BA%8Eobsidian%E7%9A%84%E5%85%8D%E8%B4%B9%E5%90%8C%E6%AD%A5%E6%96%B9%E6%B3%95/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/02/22/Note/%E5%85%B3%E4%BA%8Eobsidian%E7%9A%84%E5%85%8D%E8%B4%B9%E5%90%8C%E6%AD%A5%E6%96%B9%E6%B3%95/"/>
         <content type="html">&lt;h2 id=&#34;前提条件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前提条件&#34;&gt;#&lt;/a&gt; 前提条件&lt;/h2&gt;
 &lt;p&gt;下载插件 &lt;a href=&#34;https://github.com/remotely-save/remotely-save&#34;&gt;&lt;code&gt;Remotely Save&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;
 注册&lt;a href=&#34;https://account.teracloud.jp/RegistForm.php/index/&#34;&gt;infini-cloud云端存储网站&lt;/a&gt;&lt;/p&gt;
@@ -2082,13 +2082,13 @@ Kagi的AI集成哲学强调AI应该在搜索相关的、定义明确的、闭合
 &lt;p&gt;&lt;strong&gt;配置完成后，点击侧边栏更新按钮即可同步&lt;/strong&gt;&lt;br /&gt;
 &lt;a href=&#34;https://imgse.com/i/pFNkYwD&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s11.ax1x.com/2024/02/22/pFNkYwD.png&#34; alt=&#34;pFNkYwD.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="obsidian" scheme="http://localhost:4000/tags/obsidian/" />
+        <category term="obsidian" scheme="https://obsidianlyg.github.io/tags/obsidian/" />
         <updated>2024-02-22T03:05:39.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2024/02/02/Note/AutoHotkey%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</id>
+        <id>https://obsidianlyg.github.io/2024/02/02/Note/AutoHotkey%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</id>
         <title>AutoHotkey使用说明</title>
-        <link rel="alternate" href="http://localhost:4000/2024/02/02/Note/AutoHotkey%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2024/02/02/Note/AutoHotkey%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/"/>
         <content type="html">&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/m0_37816922/article/details/130849724&#34;&gt;参考文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.autohotkey.com/docs/v2/howto/RunExamples.htm&#34;&gt;官方文档（可以调整为中文）&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.autohotkey.com/&#34;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
@@ -2264,9 +2264,9 @@ Kagi的AI集成哲学强调AI应该在搜索相关的、定义明确的、闭合
         <updated>2024-02-01T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2023/12/05/Note/Java%E4%B8%ADList%E9%9B%86%E5%90%88%E5%88%86%E9%A1%B5/</id>
+        <id>https://obsidianlyg.github.io/2023/12/05/Note/Java%E4%B8%ADList%E9%9B%86%E5%90%88%E5%88%86%E9%A1%B5/</id>
         <title>利用Java导入Excel到数据库</title>
-        <link rel="alternate" href="http://localhost:4000/2023/12/05/Note/Java%E4%B8%ADList%E9%9B%86%E5%90%88%E5%88%86%E9%A1%B5/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2023/12/05/Note/Java%E4%B8%ADList%E9%9B%86%E5%90%88%E5%88%86%E9%A1%B5/"/>
         <content type="html">&lt;h3 id=&#34;使用stream-api进行分页&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用stream-api进行分页&#34;&gt;#&lt;/a&gt; 使用stream api进行分页&lt;/h3&gt;
 &lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;List&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;User&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt; list&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt; =&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt; new&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; ArrayList&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;List&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;User&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt; subList&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt; =&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt; list&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;stream&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;skip&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;pageNo&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#2F798A;--shiki-dark:#4C9A91&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;pageSize&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;limit&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;pageSize&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;collect&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt;Collectors&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;toList&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -2315,13 +2315,13 @@ Kagi的AI集成哲学强调AI应该在搜索相关的、定义明确的、闭合
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/liuxiao723846/article/details/116210660&#34;&gt;参考链接&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="Java" scheme="http://localhost:4000/tags/Java/" />
+        <category term="Java" scheme="https://obsidianlyg.github.io/tags/Java/" />
         <updated>2023-12-05T06:43:39.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2023/11/28/Note/SpringBoot%E4%B8%8B%E4%BD%BF%E7%94%A8Quartz%E8%AE%BE%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</id>
+        <id>https://obsidianlyg.github.io/2023/11/28/Note/SpringBoot%E4%B8%8B%E4%BD%BF%E7%94%A8Quartz%E8%AE%BE%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</id>
         <title>SpringBoot下使用Quartz设置定时任务</title>
-        <link rel="alternate" href="http://localhost:4000/2023/11/28/Note/SpringBoot%E4%B8%8B%E4%BD%BF%E7%94%A8Quartz%E8%AE%BE%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2023/11/28/Note/SpringBoot%E4%B8%8B%E4%BD%BF%E7%94%A8Quartz%E8%AE%BE%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/"/>
         <content type="html">&lt;h3 id=&#34;基础使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础使用&#34;&gt;#&lt;/a&gt; &lt;strong&gt;基础使用&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Quartz 的核心类有以下三部分：&lt;/p&gt;
 &lt;ul&gt;
@@ -2403,13 +2403,13 @@ Kagi的AI集成哲学强调AI应该在搜索相关的、定义明确的、闭合
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;关于cron表达式可以跳转这个连接-&amp;gt;&lt;a href=&#34;https://qqe2.com/cron&#34;&gt;表达式生成器&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="Java" scheme="http://localhost:4000/tags/Java/" />
+        <category term="Java" scheme="https://obsidianlyg.github.io/tags/Java/" />
         <updated>2023-11-28T03:46:00.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2023/08/02/Note/%E9%80%9A%E8%BF%87Java%E5%AF%BC%E5%85%A5Excel/</id>
+        <id>https://obsidianlyg.github.io/2023/08/02/Note/%E9%80%9A%E8%BF%87Java%E5%AF%BC%E5%85%A5Excel/</id>
         <title>利用Java导入Excel到数据库</title>
-        <link rel="alternate" href="http://localhost:4000/2023/08/02/Note/%E9%80%9A%E8%BF%87Java%E5%AF%BC%E5%85%A5Excel/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2023/08/02/Note/%E9%80%9A%E8%BF%87Java%E5%AF%BC%E5%85%A5Excel/"/>
         <content type="html">&lt;h1 id=&#34;esayexcel的使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#esayexcel的使用&#34;&gt;#&lt;/a&gt; EsayExcel的使用&lt;/h1&gt;
 &lt;h2 id=&#34;引入依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引入依赖&#34;&gt;#&lt;/a&gt; 引入依赖&lt;/h2&gt;
 &lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;dependency&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;  &lt;/span&gt;&lt;/span&gt;
@@ -2559,13 +2559,13 @@ SyncLineLossImportListener类&lt;/p&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq991658923/article/details/128153012&#34;&gt;导入导出参考连接&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="Java" scheme="http://localhost:4000/tags/Java/" />
+        <category term="Java" scheme="https://obsidianlyg.github.io/tags/Java/" />
         <updated>2023-08-02T09:05:39.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2022/07/14/Note/ventoy%E4%B8%BB%E9%A2%98%E6%B5%8B%E8%AF%95/</id>
+        <id>https://obsidianlyg.github.io/2022/07/14/Note/ventoy%E4%B8%BB%E9%A2%98%E6%B5%8B%E8%AF%95/</id>
         <title>ventoy主题配置并测试</title>
-        <link rel="alternate" href="http://localhost:4000/2022/07/14/Note/ventoy%E4%B8%BB%E9%A2%98%E6%B5%8B%E8%AF%95/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2022/07/14/Note/ventoy%E4%B8%BB%E9%A2%98%E6%B5%8B%E8%AF%95/"/>
         <content type="html">&lt;p&gt;&lt;a href=&#34;https://www.ventoy.net/cn/download.html&#34;&gt;ventoy下载地址&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;准备工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备工作&#34;&gt;#&lt;/a&gt; 准备工作&lt;/h2&gt;
 &lt;p&gt;ventoy软件&lt;/p&gt;
@@ -2607,13 +2607,13 @@ SyncLineLossImportListener类&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgtg.com/2023/06/27/Okz3LX.png&#34; alt=&#34;image-20220714134421036&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="linux" scheme="http://localhost:4000/tags/linux/" />
+        <category term="linux" scheme="https://obsidianlyg.github.io/tags/linux/" />
         <updated>2022-07-14T05:11:45.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2022/07/04/Note/Linux%E5%A4%87%E4%BB%BD%EF%BC%88Rsnapshot%EF%BC%89/</id>
+        <id>https://obsidianlyg.github.io/2022/07/04/Note/Linux%E5%A4%87%E4%BB%BD%EF%BC%88Rsnapshot%EF%BC%89/</id>
         <title>Linux备份（Rsnapshot）</title>
-        <link rel="alternate" href="http://localhost:4000/2022/07/04/Note/Linux%E5%A4%87%E4%BB%BD%EF%BC%88Rsnapshot%EF%BC%89/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2022/07/04/Note/Linux%E5%A4%87%E4%BB%BD%EF%BC%88Rsnapshot%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;linux备份rsnapshot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux备份rsnapshot&#34;&gt;#&lt;/a&gt; Linux备份（Rsnapshot）&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.txuw.top/article/rsnapshot&#34;&gt;参考链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/chuyanwen8507/article/details/100906990&#34;&gt;参考链接2&lt;/a&gt;&lt;/p&gt;
@@ -2734,13 +2734,13 @@ SyncLineLossImportListener类&lt;/p&gt;
 &lt;p&gt;实际上可以直接输入&lt;code&gt;crontab -e&lt;/code&gt; 之后直接编辑即可&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="Linux" scheme="http://localhost:4000/tags/Linux/" />
+        <category term="Linux" scheme="https://obsidianlyg.github.io/tags/Linux/" />
         <updated>2022-07-04T01:04:52.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2022/05/01/Note/Ubuntu%E6%8D%A2%E6%BA%90/</id>
+        <id>https://obsidianlyg.github.io/2022/05/01/Note/Ubuntu%E6%8D%A2%E6%BA%90/</id>
         <title>Ubuntu笔记</title>
-        <link rel="alternate" href="http://localhost:4000/2022/05/01/Note/Ubuntu%E6%8D%A2%E6%BA%90/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2022/05/01/Note/Ubuntu%E6%8D%A2%E6%BA%90/"/>
         <content type="html">&lt;h2 id=&#34;查看信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看信息&#34;&gt;#&lt;/a&gt; 查看信息&lt;/h2&gt;
 &lt;p&gt;查看完整整的Ubuntu系统信息：cat /proc/version&lt;/p&gt;
 &lt;p&gt;查看列表型系统版本信息：lsb_release -a&lt;/p&gt;
@@ -2790,13 +2790,13 @@ SyncLineLossImportListener类&lt;/p&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;source&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; .bashrc&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="ubuntu" scheme="http://localhost:4000/tags/ubuntu/" />
+        <category term="ubuntu" scheme="https://obsidianlyg.github.io/tags/ubuntu/" />
         <updated>2022-05-01T02:29:28.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2022/04/30/Note/maven%E9%85%8D%E7%BD%AE/</id>
+        <id>https://obsidianlyg.github.io/2022/04/30/Note/maven%E9%85%8D%E7%BD%AE/</id>
         <title>maven基础配置</title>
-        <link rel="alternate" href="http://localhost:4000/2022/04/30/Note/maven%E9%85%8D%E7%BD%AE/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2022/04/30/Note/maven%E9%85%8D%E7%BD%AE/"/>
         <content type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;打开安装的maven的setting.xml&lt;/p&gt;
@@ -2854,13 +2854,13 @@ SyncLineLossImportListener类&lt;/p&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;          &lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;repositories&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;             &lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;      &lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&amp;#x3C;&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;profile&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="maven" scheme="http://localhost:4000/tags/maven/" />
+        <category term="maven" scheme="https://obsidianlyg.github.io/tags/maven/" />
         <updated>2022-04-30T05:30:58.000Z</updated>
     </entry>
     <entry>
-        <id>http://localhost:4000/2022/04/30/Note/Jenkins%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/</id>
+        <id>https://obsidianlyg.github.io/2022/04/30/Note/Jenkins%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/</id>
         <title>Jenkins安装及使用</title>
-        <link rel="alternate" href="http://localhost:4000/2022/04/30/Note/Jenkins%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/"/>
+        <link rel="alternate" href="https://obsidianlyg.github.io/2022/04/30/Note/Jenkins%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/"/>
         <content type="html">&lt;h1 id=&#34;jenkins安装及使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jenkins安装及使用&#34;&gt;#&lt;/a&gt; Jenkins安装及使用&lt;/h1&gt;
 &lt;p&gt;ubuntuserver安装步骤&lt;/p&gt;
 &lt;h2 id=&#34;前置要求&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前置要求&#34;&gt;#&lt;/a&gt; 前置要求&lt;/h2&gt;
@@ -3018,7 +3018,7 @@ SyncLineLossImportListener类&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgtg.com/2023/06/19/OTGxut.png&#34; alt=&#34;image-20220430131609017&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="Java" scheme="http://localhost:4000/tags/Java/" />
+        <category term="Java" scheme="https://obsidianlyg.github.io/tags/Java/" />
         <updated>2022-04-30T04:54:43.000Z</updated>
     </entry>
 </feed>
