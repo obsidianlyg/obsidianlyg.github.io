@@ -1,0 +1,948 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="alternate" href="/rss.xml" title="" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="" type="application/atom+xml"><link rel="alternate" type="application/json" title="" href="http://localhost:4000/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="modulepreload" href="/js/siteInit.js"><link rel="modulepreload" href="/js/nyx-player-X56XX4PX.js"><link rel="modulepreload" href="/js/copy-tex-IPIWZFR6.js"><link rel="modulepreload" href="/js/post-5H6EP3NL.js"><link rel="modulepreload" href="/js/chunk-EYF2JWD2.js"><link rel="modulepreload" href="/js/pagefind-CDTLG5C3.js"><link rel="modulepreload" href="/js/chunk-YRTMLCBV.js"><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media='all'"><link rel="preload" href="https://t3.picb.cc/2023/06/15/IXzxY6.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://t3.picb.cc/2023/06/15/IXDWsM.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://t3.picb.cc/2023/06/15/IXzRj7.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://t3.picb.cc/2023/06/15/IXDvRr.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://t3.picb.cc/2023/06/15/IXDJuu.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://t3.picb.cc/2023/06/15/IXDm6j.jpg" as="image" fetchpriority="high"><meta name="keywords" content="Hexo,"><meta name="description" content="平安喜乐，顺水无忧"><link rel="canonical" href="http://localhost:4000/2020/08/13/computer-science/note/theme-shoka-doc/special/"><link rel="stylesheet" href="/css/post.css?v=0.5.4"><link rel="stylesheet" href="/css/mermaid.css?v=0.5.4"><!-- 临时处理--><link rel="stylesheet" media="none" onload="this.media='all'" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css"><title>Step.4 主题特殊功能</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="pagefind_mount"></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">Step.4 主题特殊功能</h1><div class="meta"><span class="item" title="创建时间：2020-08-13 21:45:48"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">发表于</span><time itemprop="dateCreated datePublished" datetime="2020-08-13T21:45:48+08:00">2020-08-13</time></span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i></span><span class="text">本文字数</span><span>14k</span><span class="text">字</span></span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i></span><span class="text">阅读时长</span><span>13 分钟</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Obsidianlyg's Blog</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://t3.picb.cc/2023/06/15/IXzxY6.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://t3.picb.cc/2023/06/15/IXDWsM.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://t3.picb.cc/2023/06/15/IXzRj7.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://t3.picb.cc/2023/06/15/IXDvRr.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://t3.picb.cc/2023/06/15/IXDJuu.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://t3.picb.cc/2023/06/15/IXDm6j.jpg&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首页</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/" itemprop="item" rel="index" title="分类于计算机科学"><span itemprop="name">计算机科学<meta itemprop="position" content="0"></span></a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/note/" itemprop="item" rel="index" title="分类于主题作者的教程配置"><span itemprop="name">主题作者的教程配置<meta itemprop="position" content="1"></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/note/theme-shoka-doc/" itemprop="item" rel="index" title="分类于Theme Shoka Documentation"><span itemprop="name">Theme Shoka Documentation<meta itemprop="position" content="2"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" data-pagefind-body="data-pagefind-body" lang="zh-CN"><link itemprop="mainEntityOfPage" href="http://localhost:4000/2020/08/13/computer-science/note/theme-shoka-doc/special/"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.jpg"><meta itemprop="name" content="obsidianlyg"><meta itemprop="description" content=", 平安喜乐，顺水无忧"></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content=""></span><div class="body md" itemprop="articleBody"><div class="note primary">
+<p><a href="/computer-science/note/theme-shoka-doc/">🚀快速开始</a> - <a href="/computer-science/note/theme-shoka-doc/dependents/">💌依赖插件</a> - <a href="/computer-science/note/theme-shoka-doc/config/">📌基本配置</a> - <a href="/computer-science/note/theme-shoka-doc/display/">🌈界面显示</a> - <a href="/computer-science/note/theme-shoka-doc/special/"><strong>🦄特殊功能</strong></a></p>
+</div>
+<div class="note info">
+<p>以下介绍可以使用的markdown或者标签代码。<br>
+功能大部分基于<code>hexo-renderer-multi-markdown-it</code>渲染器，尤其是代码块的显示，与默认渲染器不兼容。</p>
+</div>
+<h1 id="links-链接块"><a class="anchor" href="#links-链接块">#</a> <code>links</code> 链接块</h1>
+<p>本功能参考NexT，基于Hexo Tag功能，用来建立友链或其他网址链接功能。</p>
+<p>文章中的使用格式：</p>
+<ol>
+<li>使用<code>links</code>标签块，包围<code>yml</code>语法书写的内容，字段包括</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>说明</th>
+<th>选择</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>site</code></td>
+<td>站点名称</td>
+<td>必填</td>
+</tr>
+<tr>
+<td><code>owner</code></td>
+<td>管理员名字</td>
+<td>可选，默认为<code>site</code>的值</td>
+</tr>
+<tr>
+<td><code>url</code></td>
+<td>站点链接</td>
+<td>必填</td>
+</tr>
+<tr>
+<td><code>desc</code></td>
+<td>站点描述</td>
+<td>可选，默认为<code>url</code>的值</td>
+</tr>
+<tr>
+<td><code>image</code></td>
+<td>站点图片</td>
+<td>可选，默认为<code>images/404.png</code></td>
+</tr>
+<tr>
+<td><code>color</code></td>
+<td>方块颜色</td>
+<td>可选，默认为<code>#666</code></td>
+</tr>
+</tbody>
+</table>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% links %&amp;#125;</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> site: #站点名称</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  owner: #管理员名字</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  url: #站点网址</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  desc: #简短描述</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  image: #一张图片</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  color: #颜色代码</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% endlinks %&amp;#125;</span></span></code></pre>
+<p>举个栗子：</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% links %&amp;#125;</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> site: 優萌初華</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  owner: 霜月琉璃</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  url: https://shoka.lostyu.me</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  desc: 琉璃的医学 &amp; 编程笔记</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  color: "#e9546b"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> site: 回梦游春</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  owner: obsidian</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  url: http://obsidianlyg.gitee.io</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  image: images/avatar.jpg</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> site: 優萌初華</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  url: https://shoka.lostyu.me</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  desc: 琉璃的医学 &amp; 编程笔记</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  color: "#9d5b8b"</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% endlinks %&amp;#125;</span></span></code></pre>
+<p></p><div class="links"><div class="item" title="霜月琉璃" style="--block-color:#e9546b;"><a target="_blank" rel="noopener" href="https://shoka.lostyu.me" class="image" data-background-image="https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg"></a>
+        <div class="info">
+        <a target="_blank" rel="noopener" href="https://shoka.lostyu.me" class="title">優萌初華</a>
+        <p class="desc">琉璃的医学 &amp; 编程笔记</p>
+        </div></div><div class="item" title="obsidian"><a target="_blank" rel="noopener" href="http://obsidianlyg.gitee.io" class="image" data-background-image="/images/avatar.jpg"></a>
+        <div class="info">
+        <a target="_blank" rel="noopener" href="http://obsidianlyg.gitee.io" class="title">回梦游春</a>
+        <p class="desc">http://obsidianlyg.gitee.io</p>
+        </div></div><div class="item" title="優萌初華" style="--block-color:#9d5b8b;"><a target="_blank" rel="noopener" href="https://shoka.lostyu.me" class="image" data-background-image="/assets/404.png"></a>
+        <div class="info">
+        <a target="_blank" rel="noopener" href="https://shoka.lostyu.me" class="title">優萌初華</a>
+        <p class="desc">琉璃的医学 &amp; 编程笔记</p>
+        </div></div></div><p></p>
+<ol start="2">
+<li>以上标签块里的内容，还可以保存到一个<code>yml</code>文件中，然后使用<code>linksfile</code>标签。<br>
+其中，<code>path</code>位于<code>&lt;root&gt;/source</code>目录下。</li>
+</ol>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% linksfile </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">path</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> %&amp;#125;</span></span></code></pre>
+<p>举个栗子：</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% linksfile friends/_data.yml %&amp;#125;</span></span></code></pre>
+<h1 id="code代码块"><a class="anchor" href="#code代码块">#</a> <code>code</code>代码块</h1>
+<p>使用<code>markdown-it-prism</code>进行代码高亮，支持显示行号、行高亮<code>mark</code>、命令行提示符<code>command</code>、代码块标题。</p>
+<p>基本格式：<code>[language] [title] [url] [link text] [mark] [command]</code></p>
+<table>
+<thead>
+<tr>
+<th>选项</th>
+<th>描述</th>
+<th>默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>language</td>
+<td>- 支持的语言<a target="_blank" rel="noopener" href="https://prismjs.com/#supported-languages">戳此</a></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>- 如果不需要代码高亮，但希望显示代码块样式，则设为<code>raw</code></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>- 留空或设为<code>info</code>，将不显示代码高亮和代码块样式</td>
+<td></td>
+</tr>
+<tr>
+<td>title</td>
+<td>代码块的标题文字</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>url</td>
+<td>代码块标题右侧显示的链接</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>link text</td>
+<td>上述链接显示的标题</td>
+<td><code>link</code></td>
+</tr>
+<tr>
+<td>mark</td>
+<td>行高亮显示，格式为<code>mark:行号,行号开始-行号结束,其他行号</code>。</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>例如<code>mark:1,4-7,10</code>，将高亮显示第1、4、5、6、7、10行</td>
+<td></td>
+</tr>
+<tr>
+<td>command</td>
+<td>命令行提示符，格式为<code>command:("提示内容":行号,行号||"提示内容":行号开始-行号结束)</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>例如<code>command:("[root@localhost] $":1,9-10||"[admin@remotehost] #":4-6)</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">java 行高亮 https://shoka.lostyu.me 参考链接 mark:1,6-7</span></span>
+<span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">import</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> java</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">util</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Scanner</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">...</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Scanner</span><span style="color:#B07D48;--shiki-dark:#BD976A"> in</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#1E754F;--shiki-dark:#4D9375"> new</span><span style="color:#59873A;--shiki-dark:#80A665"> Scanner</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">System</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">in</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// 输入Scan之后，按下键盘 Alt + “/” 键，Eclipse下自动补全。</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">System</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">out</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">println</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">in</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">nextLine</span><span style="color:#1e754f;--shiki-dark:#4d9375">(</span><span style="color:#1e754f;--shiki-dark:#4d9375">)</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">System</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">out</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">println</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="color:#B56959;--shiki-dark:#C98A7D">Hello</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="color:#AB5959;--shiki-dark:#CB7676"> +</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> "</span><span style="color:#B56959;--shiki-dark:#C98A7D"> world.</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">bash 命令行提示符 command:</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">"</span><span style="color:#1e754f;--shiki-dark:#4d9375">[</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">root@localhost</span><span style="color:#1e754f;--shiki-dark:#4d9375">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> $":1,9-10||"</span><span style="color:#1e754f;--shiki-dark:#4d9375">[</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">admin@remotehost</span><span style="color:#1e754f;--shiki-dark:#4d9375">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> #":4-6</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span></span>
+<span class="line"><span style="color:#998418;--shiki-dark:#B8A965">pwd</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">/usr/home/chris/bin</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">ls</span><span style="color:#A65E2B;--shiki-dark:#C99076"> -la</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">total</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 2</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">drwxr-xr-x</span><span style="color:#2F798A;--shiki-dark:#4C9A91">   2</span><span style="color:#B56959;--shiki-dark:#C98A7D"> chris</span><span style="color:#B56959;--shiki-dark:#C98A7D">  chris</span><span style="color:#2F798A;--shiki-dark:#4C9A91">     11</span><span style="color:#B56959;--shiki-dark:#C98A7D"> Jan</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 10</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 16:48</span><span style="color:#B56959;--shiki-dark:#C98A7D"> .</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">drwxr--r-x</span><span style="color:#2F798A;--shiki-dark:#4C9A91">  45</span><span style="color:#B56959;--shiki-dark:#C98A7D"> chris</span><span style="color:#B56959;--shiki-dark:#C98A7D">  chris</span><span style="color:#2F798A;--shiki-dark:#4C9A91">     92</span><span style="color:#B56959;--shiki-dark:#C98A7D"> Feb</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 14</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 11:10</span><span style="color:#B56959;--shiki-dark:#C98A7D"> ..</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">-rwxr-xr-x</span><span style="color:#2F798A;--shiki-dark:#4C9A91">   1</span><span style="color:#B56959;--shiki-dark:#C98A7D"> chris</span><span style="color:#B56959;--shiki-dark:#C98A7D">  chris</span><span style="color:#2F798A;--shiki-dark:#4C9A91">    444</span><span style="color:#B56959;--shiki-dark:#C98A7D"> Aug</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 25</span><span style="color:#2F798A;--shiki-dark:#4C9A91">  2013</span><span style="color:#B56959;--shiki-dark:#C98A7D"> backup</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">-rwxr-xr-x</span><span style="color:#2F798A;--shiki-dark:#4C9A91">   1</span><span style="color:#B56959;--shiki-dark:#C98A7D"> chris</span><span style="color:#B56959;--shiki-dark:#C98A7D">  chris</span><span style="color:#2F798A;--shiki-dark:#4C9A91">    642</span><span style="color:#B56959;--shiki-dark:#C98A7D"> Jan</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 17</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 14:42</span><span style="color:#B56959;--shiki-dark:#C98A7D"> deploy</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> add</span><span style="color:#A65E2B;--shiki-dark:#C99076"> -A</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> commit</span><span style="color:#A65E2B;--shiki-dark:#C99076"> -m</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> "</span><span style="color:#B56959;--shiki-dark:#C98A7D">update</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">"</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> push</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span></span></code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-java"><span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">import</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> java</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">util</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Scanner</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">...</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Scanner</span><span style="color:#B07D48;--shiki-dark:#BD976A"> in</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#1E754F;--shiki-dark:#4D9375"> new</span><span style="color:#59873A;--shiki-dark:#80A665"> Scanner</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">System</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">in</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// 输入Scan之后，按下键盘 Alt + “/” 键，Eclipse下自动补全。</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">System</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">out</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">println</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">in</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">nextLine</span><span style="color:#1e754f;--shiki-dark:#4d9375">(</span><span style="color:#1e754f;--shiki-dark:#4d9375">)</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">System</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">out</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">println</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="color:#B56959;--shiki-dark:#C98A7D">Hello</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="color:#AB5959;--shiki-dark:#CB7676"> +</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> "</span><span style="color:#B56959;--shiki-dark:#C98A7D"> world.</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span><span style="color:#999999;--shiki-dark:#666666">;</span></span></code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-bash"><span class="line"><span style="color:#998418;--shiki-dark:#B8A965">pwd</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">/usr/home/chris/bin</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">ls</span><span style="color:#A65E2B;--shiki-dark:#C99076"> -la</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">total</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 2</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">drwxr-xr-x</span><span style="color:#2F798A;--shiki-dark:#4C9A91">   2</span><span style="color:#B56959;--shiki-dark:#C98A7D"> chris</span><span style="color:#B56959;--shiki-dark:#C98A7D">  chris</span><span style="color:#2F798A;--shiki-dark:#4C9A91">     11</span><span style="color:#B56959;--shiki-dark:#C98A7D"> Jan</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 10</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 16:48</span><span style="color:#B56959;--shiki-dark:#C98A7D"> .</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">drwxr--r-x</span><span style="color:#2F798A;--shiki-dark:#4C9A91">  45</span><span style="color:#B56959;--shiki-dark:#C98A7D"> chris</span><span style="color:#B56959;--shiki-dark:#C98A7D">  chris</span><span style="color:#2F798A;--shiki-dark:#4C9A91">     92</span><span style="color:#B56959;--shiki-dark:#C98A7D"> Feb</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 14</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 11:10</span><span style="color:#B56959;--shiki-dark:#C98A7D"> ..</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">-rwxr-xr-x</span><span style="color:#2F798A;--shiki-dark:#4C9A91">   1</span><span style="color:#B56959;--shiki-dark:#C98A7D"> chris</span><span style="color:#B56959;--shiki-dark:#C98A7D">  chris</span><span style="color:#2F798A;--shiki-dark:#4C9A91">    444</span><span style="color:#B56959;--shiki-dark:#C98A7D"> Aug</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 25</span><span style="color:#2F798A;--shiki-dark:#4C9A91">  2013</span><span style="color:#B56959;--shiki-dark:#C98A7D"> backup</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">-rwxr-xr-x</span><span style="color:#2F798A;--shiki-dark:#4C9A91">   1</span><span style="color:#B56959;--shiki-dark:#C98A7D"> chris</span><span style="color:#B56959;--shiki-dark:#C98A7D">  chris</span><span style="color:#2F798A;--shiki-dark:#4C9A91">    642</span><span style="color:#B56959;--shiki-dark:#C98A7D"> Jan</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 17</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 14:42</span><span style="color:#B56959;--shiki-dark:#C98A7D"> deploy</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> add</span><span style="color:#A65E2B;--shiki-dark:#C99076"> -A</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> commit</span><span style="color:#A65E2B;--shiki-dark:#C99076"> -m</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> "</span><span style="color:#B56959;--shiki-dark:#C98A7D">update</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">"</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> push</span></span></code></pre>
+<h1 id="quiz-练习题与答案"><a class="anchor" href="#quiz-练习题与答案">#</a> <code>quiz</code> 练习题与答案</h1>
+<p>这个功能是用来显示练习题的。<br>
+需要在Front Matter中添加<code>quiz: true</code>，以正确显示题型标签。</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#999999;--shiki-dark:#666666">---</span></span>
+<span class="line"><span style="color:#998418;--shiki-dark:#B8A965">title</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 练习题与答案</span></span>
+<span class="line"><span style="color:#998418;--shiki-dark:#B8A965">quiz</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#1E754F;--shiki-dark:#4D9375"> true</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">---</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">1.</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。 </span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.quiz .true</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">2.</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 有基类</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">SHAPE</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">，派生类</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">CIRCLE</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">，声明如下变量：  </span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.quiz .multi</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">    ```</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">cpp</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    SHAPE shape1</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#AB5959;--shiki-dark:#CB7676">*</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">p1</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    CIRCLE circle1</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#AB5959;--shiki-dark:#CB7676">*</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">q1</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">    ```</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    下列哪些项是“派生类对象替换基类对象”。</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#999999;--shiki-dark:#666666"> `</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">p1=&amp;circle1;</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.correct</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#999999;--shiki-dark:#666666"> `</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">q1=&amp;shape1;</span><span style="color:#999999;--shiki-dark:#666666">`</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#999999;--shiki-dark:#666666"> `</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">shape1=circle1;</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.correct</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#999999;--shiki-dark:#666666"> `</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">circle1=shape1;</span><span style="color:#999999;--shiki-dark:#666666">`</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.options</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    </span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> - :heavy_check_mark: 令基类对象的指针指向派生类对象</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    </span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> - :x: 派生类指针指向基类的引用</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    </span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> - :heavy_check_mark: 派生类对象给基类对象赋值</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    </span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> - :x: 基类对象给派生类对象赋值</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    </span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.options</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">3.</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 下列叙述正确的是 </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.gap</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 。 </span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.quiz</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 虚函数只能定义成无参函数</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 虚函数不能有返回值</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 能定义虚构造函数</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> A、B、C都不对 </span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.correct</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.options</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">10.</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 如果定义</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">int e=8; double f=6.4, g=8.9;</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">，则表达式 </span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">f+int</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">e/3*int</span><span style="color:#1e754f;--shiki-dark:#4d9375">(</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">f+g</span><span style="color:#1e754f;--shiki-dark:#4d9375">)</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">/2</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">%4</span><span style="color:#999999;--shiki-dark:#666666">`</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 的值为 </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">9.4</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.gap</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">。 </span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.quiz .fill</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">    </span><span style="color:#999999;--shiki-dark:#666666">&gt;</span><span style="color:#2E808F;--shiki-dark:#5D99A9"> 注意运算顺序和数据类型</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">    </span><span style="color:#999999;--shiki-dark:#666666">&gt;</span><span style="color:#999999;--shiki-dark:#666666"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">8.4</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#2E808F;--shiki-dark:#5D99A9">.mistake</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span></code></pre>
+<p>点击选项可以显示答案，以及答案解析。</p>
+<ol>
+<li class="quiz">
+<p>下列叙述正确的是 <span class="gap"></span> 。</p>
+<ul class="options">
+<li>虚函数只能定义成无参函数</li>
+<li>虚函数不能有返回值</li>
+<li>能定义虚构造函数</li>
+<li class="correct">A、B、C都不对</li>
+</ul>
+</li>
+<li class="quiz multi">
+<p>有基类<code>SHAPE</code>，派生类<code>CIRCLE</code>，声明如下变量： </p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-cpp"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">SHAPE shape1</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#AB5959;--shiki-dark:#CB7676">*</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">p1</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">CIRCLE circle1</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#AB5959;--shiki-dark:#CB7676">*</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">q1</span><span style="color:#999999;--shiki-dark:#666666">;</span></span></code></pre>
+<p>下列哪些项是“派生类对象替换基类对象”。</p>
+<ul class="options">
+<li class="correct"><code>p1=&amp;circle1;</code></li>
+<li><code>q1=&amp;shape1;</code></li>
+<li class="correct"><code>shape1=circle1;</code></li>
+<li><code>circle1=shape1;</code></li>
+</ul>
+<blockquote>
+<ul class="options">
+<li>✔️ 令基类对象的指针指向派生类对象</li>
+<li>❌ 派生类指针指向基类的引用</li>
+<li>✔️ 派生类对象给基类对象赋值</li>
+<li>❌ 基类对象给派生类对象赋值</li>
+</ul>
+</blockquote>
+</li>
+<li class="quiz true">
+<p>编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。</p>
+</li>
+<li class="quiz fill">
+<p>如果定义<code>int e=8; double f=6.4, g=8.9;</code>，则表达式 <code>f+int(e/3*int(f+g)/2)%4</code> 的值为 <span class="gap">9.4</span>。</p>
+<blockquote>
+<p>注意运算顺序和数据类型<br>
+<span class="mistake">8.4</span></p>
+</blockquote>
+</li>
+</ol>
+<h2 id="使用说明"><a class="anchor" href="#使用说明">#</a> 使用说明</h2>
+<p>本功能基于<code>markdown-it-bracketed-spans</code>和<code>markdown-it-attrs</code></p>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{.quiz}</code></td>
+<td>选择题</td>
+</tr>
+<tr>
+<td><code>{.quiz .multi}</code></td>
+<td>多选题</td>
+</tr>
+<tr>
+<td><code>{.quiz .true}</code></td>
+<td>正确的判断题</td>
+</tr>
+<tr>
+<td><code>{.quiz .false}</code></td>
+<td>错误的判断题</td>
+</tr>
+<tr>
+<td><code>{.quiz .fill}</code></td>
+<td>填空题</td>
+</tr>
+<tr>
+<td><code>[]{.gap}</code></td>
+<td>空白下划线</td>
+</tr>
+<tr>
+<td><code>[答案内容]{.gap}</code></td>
+<td>答案内容带下划线</td>
+</tr>
+<tr>
+<td><code>{.options}</code></td>
+<td>ABCDE选项</td>
+</tr>
+<tr>
+<td><code>{.correct}</code></td>
+<td>选择题的正确选项</td>
+</tr>
+<tr>
+<td><code>&gt;</code></td>
+<td>答案解析</td>
+</tr>
+<tr>
+<td><code>[8.4]{.mistake}</code></td>
+<td>错题备注</td>
+</tr>
+</tbody>
+</table>
+<h1 id="emoji-绘文字"><a class="anchor" href="#emoji-绘文字">#</a> <code>emoji</code> 绘文字</h1>
+<p>本功能基于<code>markdown-it-emoji</code>，所有<a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json">标签参考戳此</a></p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:kissing_heart:</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:ring:</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:notes:</span></span></code></pre>
+<p>😘 💍 🎶</p>
+<h1 id="effects-文字特效"><a class="anchor" href="#effects-文字特效">#</a> <code>effects</code> 文字特效</h1>
+<p>本功能基于<code>markdown-it-ins</code>、 <code>markdown-it-bracketed-spans</code>和<code>markdown-it-attrs</code></p>
+<blockquote>
+<p>本主题风格颜色通用样式：default、primary、success、info、warning、danger</p>
+</blockquote>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">++下划线++</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">++波浪线++</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.wavy</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">++着重点++</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.dot</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">++紫色下划线++</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.primary</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">++绿色波浪线++</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.wavy .success</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">++黄色着重点++</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.dot .warning</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">~~</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">删除线</span><span style="color:#999999;--shiki-dark:#666666">~~</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">~~</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">红色删除线</span><span style="color:#999999;--shiki-dark:#666666">~~</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.danger</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">==荧光高亮==</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">赤橙黄绿青蓝紫</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.rainbow</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">红色</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.red</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">粉色</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.pink</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">橙色</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.orange</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">黄色</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.yellow</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">绿色</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.green</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">靛青</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.aqua</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">蓝色</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.blue</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">紫色</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.purple</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">灰色</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.grey</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">快捷键 </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">Ctrl</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.kbd</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> + </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">C</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.kbd .red</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">H~2~0</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">29^th^</span></span></code></pre>
+<div class="note warning">
+<p>这段代码因为自动被pangu.js处理了一下，加了几个空格，导致直接复制代码不能正常显示。<br>
+正确的代码是<code>++下划线++</code> <code>~~删除线~~</code> <code>==荧光高亮==</code>，不能有空格哦。</p>
+</div>
+<p><ins>下划线</ins><br>
+<ins class="wavy">波浪线</ins><br>
+<ins class="dot">着重点</ins><br>
+<ins class="primary">紫色下划线</ins><br>
+<ins class="wavy success">绿色波浪线</ins><br>
+<ins class="dot warning">黄色着重点</ins><br>
+<s>删除线</s><br>
+<s class="danger">红色删除线</s><br>
+<mark>荧光高亮</mark><br>
+<span class="rainbow">赤橙黄绿青蓝紫</span><br>
+<span class="red">红色</span><br>
+<span class="pink">粉色</span><br>
+<span class="orange">橙色</span><br>
+<span class="yellow">黄色</span><br>
+<span class="green">绿色</span><br>
+<span class="aqua">靛青</span><br>
+<span class="blue">蓝色</span><br>
+<span class="purple">紫色</span><br>
+<span class="grey">灰色</span><br>
+快捷键 <span class="kbd">Ctrl</span> + <span class="kbd red">C</span><br>
+H<sub>2</sub>0<br>
+29<sup>th</sup></p>
+<h1 id="spoiler隐藏文字"><a class="anchor" href="#spoiler隐藏文字">#</a> <code>spoiler</code>隐藏文字</h1>
+<p>本功能基于<code>markdown-it-spoiler</code>和<code>markdown-it-attrs</code></p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">!!黑幕黑幕黑幕黑幕黑幕黑幕!! ： 鼠标滑过显示内容</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">!!模糊模糊模糊模糊模糊模糊!!</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.bulr</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> ： 选中文字显示内容</span></span></code></pre>
+<p><span class="spoiler" title="你知道得太多了">黑幕黑幕黑幕黑幕黑幕黑幕</span> ： 鼠标滑过显示内容<br>
+<span class="spoiler bulr" title="你知道得太多了">模糊模糊模糊模糊模糊模糊</span> ： 选中文字显示内容</p>
+<h1 id="label-标签块"><a class="anchor" href="#label-标签块">#</a> <code>label</code> 标签块</h1>
+<p>本功能基于<code>markdown-it-bracketed-spans</code>和<code>markdown-it-attrs</code><br>
+有以下颜色可选</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">default</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">primary</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label .primary</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">info</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label .info</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">:heavy_check_mark:success</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label .success</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">warning</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label .warning</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">:broken_heart:danger</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label .danger</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span></code></pre>
+<p><span class="label">default</span><br>
+<span class="label primary">primary</span><br>
+<span class="label info">info</span><br>
+<span class="label success">✔️success</span><br>
+<span class="label warning">warning</span><br>
+<span class="label danger">💔danger</span></p>
+<h1 id="note-提醒块"><a class="anchor" href="#note-提醒块">#</a> <code>note</code> 提醒块</h1>
+<p>本功能基于<code>markdown-it-container</code><br>
+标签为：</p>
+<table>
+<thead>
+<tr>
+<th>标记</th>
+<th>写法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>开始行</td>
+<td><code>:::[风格颜色]</code></td>
+</tr>
+<tr>
+<td>结束行</td>
+<td><code>:::</code></td>
+</tr>
+</tbody>
+</table>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::default</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">默认默认</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::primary</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">基本基本</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::info</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">提示提示</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::success</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">成功成功</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::warning</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">警告警告</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::danger</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">危险危险</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::danger no-icon</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">危险危险</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span></code></pre>
+<div class="note default">
+<p>默认默认</p>
+</div>
+<div class="note primary">
+<p>基本基本</p>
+</div>
+<div class="note info">
+<p>提示提示</p>
+</div>
+<div class="note success">
+<p>成功成功</p>
+</div>
+<div class="note warning">
+<p>警告警告</p>
+</div>
+<div class="note danger">
+<p>危险危险</p>
+</div>
+<div class="note danger no-icon">
+<p>没有图标</p>
+</div>
+<h1 id="tab标签卡"><a class="anchor" href="#tab标签卡">#</a> <code>tab</code>标签卡</h1>
+<p>本功能基于<code>markdown-it-container</code><br>
+标签为：</p>
+<table>
+<thead>
+<tr>
+<th>标记</th>
+<th>写法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>开始行</td>
+<td><code>;;;[同一ID] [标签名称]</code></td>
+</tr>
+<tr>
+<td>结束行</td>
+<td><code>;;;</code></td>
+</tr>
+</tbody>
+</table>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;id1 卡片1</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">这里是卡片1的内容</span></span>
+<span class="line"><span style="color:#999999;--shiki-light-font-weight:bold;--shiki-dark:#666666;--shiki-dark-font-weight:bold">**</span><span style="color:#393A34;--shiki-light-font-weight:bold;--shiki-dark:#DBD7CAEE;--shiki-dark-font-weight:bold">加粗</span><span style="color:#999999;--shiki-light-font-weight:bold;--shiki-dark:#666666;--shiki-dark-font-weight:bold">**</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">success</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label .success</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% links %&amp;#125;</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> site: 優萌初華</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  owner: 霜月琉璃</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  url: https://shoka.lostyu.me</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  desc: 琉璃的医学 &amp; 编程笔记</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  color: "#e9546b"</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% endlinks %&amp;#125;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;id1 卡片2</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">这里是卡片2的内容</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::danger</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">危险危险</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 第一行</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 第二行</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;id2 ②号标签卡片1</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">这里是卡片1的内容</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;id2 ②号标签卡片2</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">这里是卡片2的内容</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;</span></span></code></pre>
+<div class="tab" data-id="id1" data-title="卡片1">
+<p>这里是卡片1的内容<br>
+<strong>加粗</strong><br>
+<span class="label success">success</span></p>
+<p></p><div class="links"><div class="item" title="霜月琉璃" style="--block-color:#e9546b;"><a target="_blank" rel="noopener" href="https://shoka.lostyu.me" class="image" data-background-image="https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg"></a>
+        <div class="info">
+        <a target="_blank" rel="noopener" href="https://shoka.lostyu.me" class="title">優萌初華</a>
+        <p class="desc">琉璃的医学 &amp; 编程笔记</p>
+        </div></div></div><p></p>
+</div>
+<div class="tab" data-id="id1" data-title="卡片2">
+<p>这里是卡片2的内容</p>
+<div class="note danger">
+<p>危险危险</p>
+</div>
+<ul>
+<li>第一行</li>
+<li>第二行</li>
+</ul>
+</div>
+<div class="tab" data-id="id2" data-title="②号标签卡片1">
+<p>这里是卡片1的内容</p>
+</div>
+<div class="tab" data-id="id2" data-title="②号标签卡片2">
+<p>这里是卡片2的内容</p>
+</div>
+<h1 id="collapse-折叠块"><a class="anchor" href="#collapse-折叠块">#</a> <code>collapse</code> 折叠块</h1>
+<p>本功能基于<code>markdown-it-container</code><br>
+标签为：</p>
+<table>
+<thead>
+<tr>
+<th>标记</th>
+<th>写法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>开始行</td>
+<td><code>+++[风格颜色] [标题文字]</code></td>
+</tr>
+<tr>
+<td>结束行</td>
+<td><code>+++</code></td>
+</tr>
+</tbody>
+</table>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++ 默认默认 这里是一段文字</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">++下划线++</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++primary 紫色</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::info</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">参考信息</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">:::</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 第一行</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 第二行</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++info  蓝色</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;id3 卡片1</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">这里是卡片1的内容</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;id3 卡片2</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">这里是卡片2的内容</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">;;;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++success 绿色</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% links %&amp;#125;</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> site: 優萌初華</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  url: https://shoka.lostyu.me</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  color: "#e9546b"</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% endlinks %&amp;#125;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++warning 黄色</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">!!警告警告警告警告警告!!</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.bulr</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">label</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label .success</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++danger 红色</span></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">danger</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.label .danger</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+++</span></span></code></pre>
+<details><summary>默认默认 这里是一段文字</summary><div>
+<p><ins>下划线</ins></p>
+</div></details>
+<details class="primary"><summary>紫色</summary><div>
+<div class="note info">
+<p>参考信息</p>
+</div>
+<ul>
+<li>第一行</li>
+<li>第二行</li>
+</ul>
+</div></details>
+<details class="info"><summary>蓝色</summary><div>
+<div class="tab" data-id="id3" data-title="卡片1">
+<p>这里是卡片1的内容<br>
+<ins class="wavy">波浪线</ins></p>
+</div>
+<div class="tab" data-id="id3" data-title="卡片2">
+<p>这里是卡片2的内容</p>
+</div>
+</div></details>
+<details class="success"><summary>绿色</summary><div>
+<p></p><div class="links"><div class="item" title="優萌初華" style="--block-color:#e9546b;"><a target="_blank" rel="noopener" href="https://shoka.lostyu.me" class="image" data-background-image="/assets/404.png"></a>
+        <div class="info">
+        <a target="_blank" rel="noopener" href="https://shoka.lostyu.me" class="title">優萌初華</a>
+        <p class="desc">https://shoka.lostyu.me</p>
+        </div></div></div><p></p>
+</div></details>
+<details class="warning"><summary>黄色</summary><div>
+<p><span class="spoiler bulr" title="你知道得太多了">警告警告警告警告警告</span><br>
+<span class="label success">label</span></p>
+</div></details>
+<details class="danger"><summary>红色</summary><div>
+<p><span class="label danger">danger</span></p>
+</div></details>
+<h1 id="tasklist-待办事项"><a class="anchor" href="#tasklist-待办事项">#</a> <code>taskList</code> 待办事项</h1>
+<p>本功能基于<code>markdown-it-task-checkbox</code>。<br>
+可以利用<code>markdown-it-attrs</code>添加风格颜色，只可以给<code>ul</code>标签添加，需要新建两行。</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 这是一个小叉叉</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#999999;--shiki-dark:#666666"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">x</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 这是一个红色勾勾</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.danger</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 未完成</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#999999;--shiki-dark:#666666"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">x</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 完成</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">.primary</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 未完成</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#999999;--shiki-dark:#666666"> </span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#B56959;--shiki-dark:#C98A7D">x</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> 默认颜色</span></span></code></pre>
+<ul class="task-list danger">
+<li class="task-list-item"><input type="checkbox" id="cbx_0" disabled="true"><label for="cbx_0"> 这是一个小叉叉</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_1" checked="true" disabled="true"><label for="cbx_1"> 这是一个红色勾勾</label></li>
+</ul>
+<ul class="task-list primary">
+<li class="task-list-item"><input type="checkbox" id="cbx_2" disabled="true"><label for="cbx_2"> 未完成</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_3" checked="true" disabled="true"><label for="cbx_3"> 完成</label></li>
+</ul>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" id="cbx_4" disabled="true"><label for="cbx_4"> 未完成</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_5" checked="true" disabled="true"><label for="cbx_5"> 默认颜色</label></li>
+</ul>
+<h1 id="furigana文字注音"><a class="anchor" href="#furigana文字注音">#</a> <code>furigana</code>文字注音</h1>
+<p>原本用于日语汉字假名注音，但别的注音也可以。<br>
+为了兼容性，采用<code>markdown-it-ruby</code>的基本格式：<code>{文字^注音}</code>，并且为了兼容表格，将分隔符由<code>|</code>换成了<code>^</code>。<br>
+注音分隔基于<code>furigana-markdown-it</code><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/furigana-markdown-it#quick-usage">显示说明看这里</a></p>
+<table>
+<thead>
+<tr>
+<th>写法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{取り返す^とりかえす}</code></td>
+<td><ruby>取<rp>(</rp><rt>と</rt><rp>)</rp>り<rt></rt>返<rp>(</rp><rt>かえ</rt><rp>)</rp>す<rt></rt></ruby></td>
+</tr>
+<tr>
+<td><code>{可愛い犬^か+わい・い・いぬ}</code></td>
+<td><ruby>可愛<rp>(</rp><rt>かわい</rt><rp>)</rp>い<rt></rt>犬<rp>(</rp><rt>いぬ</rt><rp>)</rp></ruby></td>
+</tr>
+<tr>
+<td><code>{可愛い犬^か・わい・いいぬ}</code></td>
+<td><ruby>可<rp>(</rp><rt>か</rt><rp>)</rp>愛<rp>(</rp><rt>わい</rt><rp>)</rp>い<rt></rt>犬<rp>(</rp><rt>いぬ</rt><rp>)</rp></ruby></td>
+</tr>
+<tr>
+<td><code>{アクセラレータ^accelerator}</code></td>
+<td><ruby>アクセラレータ<rp>(</rp><rt>accelerator</rt><rp>)</rp></ruby></td>
+</tr>
+<tr>
+<td><code>{accelerator^アクセラレータ}</code></td>
+<td><ruby>accelerator<rp>(</rp><rt>アクセラレータ</rt><rp>)</rp></ruby></td>
+</tr>
+<tr>
+<td><code>{食べる^たべる}</code></td>
+<td><ruby>食<rp>(</rp><rt>た</rt><rp>)</rp>べる<rt></rt></ruby></td>
+</tr>
+<tr>
+<td><code>{食べる^=たべる}</code></td>
+<td><ruby>食べる<rp>(</rp><rt>たべる</rt><rp>)</rp></ruby></td>
+</tr>
+<tr>
+<td><code>{あいうえお^*}</code></td>
+<td><ruby>あ<rt>●</rt>い<rt>●</rt>う<rt>●</rt>え<rt>●</rt>お<rt>●</rt></ruby></td>
+</tr>
+<tr>
+<td><code>{あいうえお^*❤}</code></td>
+<td><ruby>あ<rt>❤</rt>い<rt>❤</rt>う<rt>❤</rt>え<rt>❤</rt>お<rt>❤</rt></ruby></td>
+</tr>
+<tr>
+<td><code>{常用账号^contact}</code></td>
+<td><ruby>常用账号<rp>(</rp><rt>contact</rt><rp>)</rp></ruby></td>
+</tr>
+</tbody>
+</table>
+<h1 id="media多媒体"><a class="anchor" href="#media多媒体">#</a> <code>media</code>多媒体</h1>
+<p>本功能基于Hexo Tag功能，使用<code>media</code>标签，目前可选择两种类型，即<code>audio</code>和<code>video</code>。</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% media audio %&amp;#125;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">...音频列表</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% endmedia %&amp;#125;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% media video %&amp;#125;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">...视频列表</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% endmedia %&amp;#125;</span></span></code></pre>
+<p>标签包绕一段<code>yml</code>格式的内容，格式与<a href="../config/#%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90">背景音乐</a>的配置类似。</p>
+<p>亦可以直接使用网易云、虾米、QQ音乐的播放列表、单曲。</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% media audio %&amp;#125;</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> title: 列表1</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  list:</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> https://music.163.com/#/playlist?id=2943811283</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> https://music.163.com/#/playlist?id=2297706586</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> title: 列表2</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  list:</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">    -</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> https://music.163.com/#/playlist?id=2031842656</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% endmedia %&amp;#125;</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% media video %&amp;#125;</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> name: "测试1"</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  url: https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0</span></span>
+<span class="line"><span style="color:#A65E2B;--shiki-dark:#D4976C">-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> name: "测试2"</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  url: https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&amp;#123;% endmedia %&amp;#125;</span></span></code></pre>
+<p></p><div class="media-container"><div class="player" data-type="audio" src="[{&quot;title&quot;:&quot;列表1&quot;,&quot;list&quot;:[&quot;https://music.163.com/#/playlist?id=2943811283&quot;,&quot;https://music.163.com/#/playlist?id=2297706586&quot;]},{&quot;title&quot;:&quot;列表2&quot;,&quot;list&quot;:[&quot;https://music.163.com/#/playlist?id=2031842656&quot;]}]"></div></div><p></p>
+<p></p><div class="media-container"><div class="player" data-type="video" src="[{&quot;name&quot;:&quot;测试1&quot;,&quot;url&quot;:&quot;https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0&quot;},{&quot;name&quot;:&quot;测试2&quot;,&quot;url&quot;:&quot;https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0&quot;}]"></div></div><p></p>
+<h1 id="math数学公式"><a class="anchor" href="#math数学公式">#</a> <code>math</code>数学公式</h1>
+<p>本功能基于<code>markdown-it-katex</code><br>
+在Front Matter中添加<code>math: true</code>以支持<a target="_blank" rel="noopener" href="https://katex.org/">KaTex</a></p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#999999;--shiki-dark:#666666">---</span></span>
+<span class="line"><span style="color:#998418;--shiki-dark:#B8A965">title</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 数学公式显示</span></span>
+<span class="line"><span style="color:#998418;--shiki-dark:#B8A965">math</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#1E754F;--shiki-dark:#4D9375"> true</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">---</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">行内公式：$\sqrt</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">3x-1</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">+</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">1+x</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">^2$</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">独立块显示：</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">$$\begin</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">array</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">c</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\nabla \times \vec</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\mathbf</span><span style="color:#1e754f;--shiki-dark:#4d9375">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">B</span><span style="color:#1e754f;--shiki-dark:#4d9375">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> -\, \frac1c\, \frac</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\partial\vec</span><span style="color:#1e754f;--shiki-dark:#4d9375">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\mathbf</span><span style="color:#a65e2b;--shiki-dark:#d4976c">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">E</span><span style="color:#a65e2b;--shiki-dark:#d4976c">}</span><span style="color:#1e754f;--shiki-dark:#4d9375">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\partial t</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> &amp;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">= \frac</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">4\pi</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">c</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\vec</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\mathbf</span><span style="color:#1e754f;--shiki-dark:#4d9375">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">j</span><span style="color:#1e754f;--shiki-dark:#4d9375">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    \nabla \cdot \vec</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\mathbf</span><span style="color:#1e754f;--shiki-dark:#4d9375">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">E</span><span style="color:#1e754f;--shiki-dark:#4d9375">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> &amp; = 4 \pi \rho </span><span style="color:#A65E2B;--shiki-dark:#C99076">\\</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\nabla \times \vec</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\mathbf</span><span style="color:#1e754f;--shiki-dark:#4d9375">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">E</span><span style="color:#1e754f;--shiki-dark:#4d9375">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\, +\, \frac1c\, \frac</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\partial\vec</span><span style="color:#1e754f;--shiki-dark:#4d9375">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\mathbf</span><span style="color:#a65e2b;--shiki-dark:#d4976c">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">B</span><span style="color:#a65e2b;--shiki-dark:#d4976c">}</span><span style="color:#1e754f;--shiki-dark:#4d9375">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\partial t</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> &amp; = \vec</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\mathbf</span><span style="color:#1e754f;--shiki-dark:#4d9375">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">0</span><span style="color:#1e754f;--shiki-dark:#4d9375">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> </span><span style="color:#A65E2B;--shiki-dark:#C99076">\\</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\nabla \cdot \vec</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\mathbf</span><span style="color:#1e754f;--shiki-dark:#4d9375">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">B</span><span style="color:#1e754f;--shiki-dark:#4d9375">}</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> &amp; = 0</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">\end</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">array</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">$$</span></span></code></pre>
+<p>行内公式：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msqrt><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">\sqrt{3x-1}+(1+x)^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.1744em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8656em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord">3</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span></span></span><span style="top:-2.8256em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg xmlns="http://www.w3.org/2000/svg" width="400em" height="1.08em" viewBox="0 0 400000 1080" preserveAspectRatio="xMinYMin slice"><path d="M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z"></path></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1744em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">x</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></p>
+<p>独立块显示：</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.16em" columnalign="center" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi mathvariant="normal">∇</mi><mo>×</mo><mover accent="true"><mi mathvariant="bold">B</mi><mo>⃗</mo></mover><mo>−</mo><mtext> </mtext><mfrac><mn>1</mn><mi>c</mi></mfrac><mtext> </mtext><mfrac><mrow><mi mathvariant="normal">∂</mi><mover accent="true"><mi mathvariant="bold">E</mi><mo>⃗</mo></mover></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>=</mo><mfrac><mrow><mn>4</mn><mi>π</mi></mrow><mi>c</mi></mfrac><mover accent="true"><mi mathvariant="bold">j</mi><mo>⃗</mo></mover><mi mathvariant="normal">∇</mi><mo>⋅</mo><mover accent="true"><mi mathvariant="bold">E</mi><mo>⃗</mo></mover></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>=</mo><mn>4</mn><mi>π</mi><mi>ρ</mi></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi mathvariant="normal">∇</mi><mo>×</mo><mover accent="true"><mi mathvariant="bold">E</mi><mo>⃗</mo></mover><mtext> </mtext><mo>+</mo><mtext> </mtext><mfrac><mn>1</mn><mi>c</mi></mfrac><mtext> </mtext><mfrac><mrow><mi mathvariant="normal">∂</mi><mover accent="true"><mi mathvariant="bold">B</mi><mo>⃗</mo></mover></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>=</mo><mover accent="true"><mn mathvariant="bold">0</mn><mo>⃗</mo></mover></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi mathvariant="normal">∇</mi><mo>⋅</mo><mover accent="true"><mi mathvariant="bold">B</mi><mo>⃗</mo></mover></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>=</mo><mn>0</mn></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{array}{c}
+
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp;
+= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+
+\nabla \cdot \vec{\mathbf{B}} &amp; = 0
+
+\end{array}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:4.1939em;vertical-align:-1.8469em;"></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.3469em;"><span style="top:-4.3469em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mord">∇</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">B</span></span><span style="top:-3.2551em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"></path></svg></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">c</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0724em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathnormal mtight">t</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-2.714em;"><span class="pstrut" style="height:2.714em;"></span><span class="mord mathbf mtight">E</span></span><span style="top:-2.9691em;"><span class="pstrut" style="height:2.714em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay mtight" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"></path></svg></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-2.9146em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mord">∇</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">E</span></span><span style="top:-3.2551em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"></path></svg></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">c</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0724em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathnormal mtight">t</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-2.714em;"><span class="pstrut" style="height:2.714em;"></span><span class="mord mathbf mtight">B</span></span><span style="top:-2.9691em;"><span class="pstrut" style="height:2.714em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay mtight" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"></path></svg></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-1.5854em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mord">∇</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">B</span></span><span style="top:-3.2551em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"></path></svg></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.8469em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.3469em;"><span style="top:-4.3469em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">c</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">π</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9774em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">j</span></span><span style="top:-3.2634em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.2355em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"></path></svg></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1944em;"><span></span></span></span></span></span><span class="mord">∇</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">E</span></span><span style="top:-3.2551em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"></path></svg></span></span></span></span></span></span></span></span></span><span style="top:-2.9146em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9274em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">0</span></span><span style="top:-3.2134em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.2355em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"></path></svg></span></span></span></span></span></span></span></span></span><span style="top:-1.5854em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.8469em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.3469em;"><span style="top:-4.3469em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">4</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mord mathnormal">ρ</span></span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span></span></span></span></span></span></span></p>
+<h1 id="mermaid流程图"><a class="anchor" href="#mermaid流程图">#</a> <code>mermaid</code>流程图</h1>
+<p>本功能基于<code>markdown-it-mermaid</code><br>
+在Front Matter中添加<code>mermaid: true</code>以支持<a target="_blank" rel="noopener" href="https://mermaid-js.github.io/mermaid/#/">Mermaid</a></p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-markdown"><span class="line"><span style="color:#999999;--shiki-dark:#666666">---</span></span>
+<span class="line"><span style="color:#998418;--shiki-dark:#B8A965">title</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B56959;--shiki-dark:#C98A7D"> 流程图显示</span></span>
+<span class="line"><span style="color:#998418;--shiki-dark:#B8A965">mermaid</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#1E754F;--shiki-dark:#4D9375"> true</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">---</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">mermaid</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">graph LR</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    A</span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Square Rect</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> -- Link text --</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> B</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#1e754f;--shiki-dark:#4d9375">(</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Circle</span><span style="color:#1e754f;--shiki-dark:#4d9375">)</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    A --</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> C</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Round Rect</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    B --</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> D</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Rhombus</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    C --</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> D</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">mermaid</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">sequenceDiagram</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    loop Daily query</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        Alice-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Bob: Hello Bob, how are you?</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        alt is sick</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">            Bob-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Alice: Not so good :</span><span style="color:rgba(255, 18, 18, 0.8);--shiki-dark:rgba(255, 18, 18, 0.8)">(</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        else is well</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">            Bob-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Alice: Feeling fresh like a daisy</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        end</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        opt Extra response</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">            Bob-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Alice: Thanks for asking</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        end</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    end</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span></span></code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-mermaid"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">graph LR</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    A</span><span style="color:#2993a3;--shiki-dark:#5eaab5">[</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Square Rect</span><span style="color:#2993a3;--shiki-dark:#5eaab5">]</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> -- Link text --</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> B</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#1e754f;--shiki-dark:#4d9375">(</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Circle</span><span style="color:#1e754f;--shiki-dark:#4d9375">)</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    A --</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> C</span><span style="color:#2993a3;--shiki-dark:#5eaab5">(</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Round Rect</span><span style="color:#2993a3;--shiki-dark:#5eaab5">)</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    B --</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> D</span><span style="color:#2993a3;--shiki-dark:#5eaab5">{</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Rhombus</span><span style="color:#2993a3;--shiki-dark:#5eaab5">}</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    C --</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> D</span></span></code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code class="language-mermaid"><span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">sequenceDiagram</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    loop Daily query</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        Alice-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Bob: Hello Bob, how are you?</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        alt is sick</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">            Bob-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Alice: Not so good :</span><span style="color:rgba(255, 18, 18, 0.8);--shiki-dark:rgba(255, 18, 18, 0.8)">(</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        else is well</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">            Bob-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Alice: Feeling fresh like a daisy</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        end</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        opt Extra response</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">            Bob-</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Alice: Thanks for asking</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        end</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    end</span></span></code></pre>
+<div class="tags"><a href="/tags/Hexo/" rel="tag"><i class="ic i-tag"></i>Hexo</a><a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"><i class="ic i-tag"></i>教程</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新于 </span><time title="修改时间：2026-05-22 17:46:48" itemprop="dateModified" datetime="2026-05-22T17:46:48+08:00">2026-05-22</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>赞赏</button><p>请我喝[茶]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" src="/assets/wechatpay.avif" alt="obsidianlyg 微信支付"><p>微信支付</p></div><div><img loading="lazy" src="/assets/alipay.avif" alt="obsidianlyg 支付宝"><p>支付宝</p></div></div></div><div id="copyright"><ul><li class="author"><strong>本文作者：</strong>obsidianlyg<i class="ic i-at"><em>@</em></i></li><li class="link"><strong>本文链接：</strong><a href="http://localhost:4000/2020/08/13/computer-science/note/theme-shoka-doc/special/" title="Step.4 主题特殊功能">http://localhost:4000/2020/08/13/computer-science/note/theme-shoka-doc/special/</a></li><li class="license"><strong>版权声明：</strong>本站所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/2020/08/13/computer-science/note/theme-shoka-doc/display/" rel="prev" itemprop="url" data-background-image="https://t3.picb.cc/2023/06/15/IXDm6j.jpg" title="Step.3 界面显示"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>Theme Shoka Documentation</span><h3>Step.3 界面显示</h3></a></div><div class="item right"><a href="/2021/12/24/computer-science/mongo/mongodb/" rel="next" itemprop="url" data-background-image="/assets/wallpaper-2572384.jpg" title="MongoDB"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>MongoDB</span><h3>MongoDB</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#links-%E9%93%BE%E6%8E%A5%E5%9D%97"><span class="toc-number">1.</span> <span class="toc-text"> links 链接块</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#code%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">2.</span> <span class="toc-text"> code代码块</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#quiz-%E7%BB%83%E4%B9%A0%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88"><span class="toc-number">3.</span> <span class="toc-text"> quiz 练习题与答案</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E"><span class="toc-number">3.1.</span> <span class="toc-text"> 使用说明</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#emoji-%E7%BB%98%E6%96%87%E5%AD%97"><span class="toc-number">4.</span> <span class="toc-text"> emoji 绘文字</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#effects-%E6%96%87%E5%AD%97%E7%89%B9%E6%95%88"><span class="toc-number">5.</span> <span class="toc-text"> effects 文字特效</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#spoiler%E9%9A%90%E8%97%8F%E6%96%87%E5%AD%97"><span class="toc-number">6.</span> <span class="toc-text"> spoiler隐藏文字</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#label-%E6%A0%87%E7%AD%BE%E5%9D%97"><span class="toc-number">7.</span> <span class="toc-text"> label 标签块</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#note-%E6%8F%90%E9%86%92%E5%9D%97"><span class="toc-number">8.</span> <span class="toc-text"> note 提醒块</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#tab%E6%A0%87%E7%AD%BE%E5%8D%A1"><span class="toc-number">9.</span> <span class="toc-text"> tab标签卡</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#collapse-%E6%8A%98%E5%8F%A0%E5%9D%97"><span class="toc-number">10.</span> <span class="toc-text"> collapse 折叠块</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#tasklist-%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9"><span class="toc-number">11.</span> <span class="toc-text"> taskList 待办事项</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#furigana%E6%96%87%E5%AD%97%E6%B3%A8%E9%9F%B3"><span class="toc-number">12.</span> <span class="toc-text"> furigana文字注音</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#media%E5%A4%9A%E5%AA%92%E4%BD%93"><span class="toc-number">13.</span> <span class="toc-text"> media多媒体</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#math%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="toc-number">14.</span> <span class="toc-text"> math数学公式</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#mermaid%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="toc-number">15.</span> <span class="toc-text"> mermaid流程图</span></a></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li><a href="/2020/08/13/computer-science/note/theme-shoka-doc/" rel="bookmark" title="Hexo主题Shoka &amp; multi-markdown-it渲染器使用说明">Hexo主题Shoka &amp; multi-markdown-it渲染器使用说明</a></li><li><a href="/2020/08/13/computer-science/note/theme-shoka-doc/dependents/" rel="bookmark" title="Step.1 依赖插件">Step.1 依赖插件</a></li><li><a href="/2020/08/13/computer-science/note/theme-shoka-doc/config/" rel="bookmark" title="Step.2 基本配置">Step.2 基本配置</a></li><li><a href="/2020/08/13/computer-science/note/theme-shoka-doc/display/" rel="bookmark" title="Step.3 界面显示">Step.3 界面显示</a></li><li class="active"><a href="/2020/08/13/computer-science/note/theme-shoka-doc/special/" rel="bookmark" title="Step.4 主题特殊功能">Step.4 主题特殊功能</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="obsidianlyg" src="/assets/avatar.avif"><p class="name" itemprop="name">obsidianlyg</p><div class="description" itemprop="description">平安喜乐，顺水无忧</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">48</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">8</span><span class="name">分类</span></a></div><div class="item tags"><a href="/tags/"><span class="count">16</span><span class="name">标签</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/obsidianlyg" class="item github" title="https://github.com/obsidianlyg"><i class="ic i-github"></i></a><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/can-nian-31" class="item zhihu" title="https://www.zhihu.com/people/can-nian-31"><i class="ic i-zhihu"></i></a><a href="mailto:879142964@qq.com" class="item email" title="mailto:879142964@qq.com"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首页</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li><li class="item"><a href="/friends/" rel="section"><i class="ic i-magic"></i>友链</a></li><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>关于</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/2021/12/24/computer-science/mongo/mongodb/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/2020/08/13/computer-science/note/theme-shoka-doc/display/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div><div id="player"></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/usetest/" title="分类于使用测试">使用测试</a><i class="ic i-angle-right"></i><a href="/categories/usetest/test-img/" title="分类于图床的测试">图床的测试</a></div><span><a href="/2021/12/25/usetest/test-img/%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BA%8A%E7%AE%80%E4%BB%8B/">各种图床简介</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/2022/04/30/Note/maven%E9%85%8D%E7%BD%AE/">maven基础配置</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/arch%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于arch个人笔记">arch个人笔记</a></div><span><a href="/2021/12/27/Arch/Arch/%E8%A7%A3%E5%86%B3vim%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98%E5%A4%96%E5%8A%A0%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/">vim乱码问题</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/2022/05/01/Note/Ubuntu%E6%8D%A2%E6%BA%90/">Ubuntu笔记</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/note/" title="分类于主题作者的教程配置">主题作者的教程配置</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/note/theme-shoka-doc/" title="分类于Theme Shoka Documentation">Theme Shoka Documentation</a></div><span><a href="/2020/08/13/computer-science/note/theme-shoka-doc/">Hexo主题Shoka &amp; multi-markdown-it渲染器使用说明</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/2021/12/25/Windows%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%BD%BF%E7%94%A8/">Windows快捷键使用</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/2024/02/23/Note/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%BB%91%E5%AE%9A%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B7%B2%E6%9C%89%E8%B4%A6%E5%8F%B7/">微信公众号绑定后台服务器已有账号</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/note/" title="分类于主题作者的教程配置">主题作者的教程配置</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/note/theme-shoka-doc/" title="分类于Theme Shoka Documentation">Theme Shoka Documentation</a></div><span><a href="/2020/08/13/computer-science/note/theme-shoka-doc/display/">Step.3 界面显示</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/2024/07/31/Note/%E9%80%9A%E8%BF%87JSONObject%E5%AE%9E%E7%8E%B0%E4%BC%A0%E5%8F%82%E4%B8%8E%E5%88%86%E9%A1%B5%E9%80%BB%E8%BE%91/">通过JSONObject实现传参与分页逻辑</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/2023/12/05/Note/Java%E4%B8%ADList%E9%9B%86%E5%90%88%E5%88%86%E9%A1%B5/">利用Java导入Excel到数据库</a></span></li></ul></div><div class="rpost pjax"><h2>最新评论</h2></div></div><div class="status"><div class="copyright">© 2022 -<span itemprop="copyrightYear">2026</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">obsidianlyg @ Obsidianlyg's Blog</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="站点总字数">225k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="站点阅读时长">3:25</span></div><div class="powered-by">基于 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `2020/08/13/computer-science/note/theme-shoka-doc/special/`,
+    favicon: {
+        show: `（●´3｀●）やれやれだぜ`,
+        hide: `(´Д｀)大変だ！`
+    },
+    search: {
+        placeholder: "文章搜索",
+        empty: "关于 「 ${query} 」，什么也没搜到",
+        stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    nocopy: "false",
+    copyright: `复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。`,
+    copy_tex: true,
+    katex: true,
+    mermaid: true,
+    audio: undefined,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章时效性提示</span><br>这是一篇发布于 {{publish}} 天前，最后一次更新在 {{updated}} 天前的文章，部分信息可能已经发生改变，请注意甄别。</p></div>`,
+    quiz: {
+        choice: `单选题`,
+        multiple: `多选题`,
+        true_false: `判断题`,
+        essay: `问答题`,
+        gap_fill: `填空题`,
+        mistake: `错题备注`
+    }
+};
+</script><script src="/js/siteInit.js?v=0.5.4" type="module" fetchpriority="high" defer=""></script></body></html>
